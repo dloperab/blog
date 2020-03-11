@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 **DAVID LOPERA**
+
 **Software Developer || .NET / Learning AI**
 
 I am a software engineer, and active student currently living in Cali, Colombia.
