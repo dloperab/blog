@@ -14,5 +14,4 @@ My interests range from technology to entrepreneurship. I am also interested in 
 
 You can also read my blog in spanish if you are interested [https://medium.com/@dloperab](https://medium.com/@dloperab). 
 
-
 This website is powered by **[fastpages](https://github.com/fastai/fastpages)**
