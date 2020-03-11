@@ -4,9 +4,9 @@ title: About Me
 permalink: /about/
 ---
 
-**DAVID LOPERA**
+**DAVID LOPERA BETANCUR**
 
-**Software Developer - .NET / Learning AI**
+**Software Developer | .NET / Learning AI**
 
 I am a software engineer, and active student currently living in Cali, Colombia.
 
