@@ -37,6 +37,6 @@ Next, the delivery of the *weekly-mendations* of the week:
 * [MIT: Introduction to Deep Learning (2020)](http://introtodeeplearning.com/).
 * [Top 20 free Data Science, ML and AI MOOCs on the Internet](https://towardsdatascience.com/top-20-free-data-science-ml-and-ai-moocs-on-the-internet-4036bd0aac12).
 
-**Spanish post:** https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb
+**Spanish post:** [https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb](https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb)
 
 ***“Thank you, namaste, and good luck”***
