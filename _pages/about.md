@@ -4,10 +4,14 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+**DAVID LOPERA**
+**Software Developer || .NET / Learning AI**
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+I am a software engineer, and active student currently living in Cali, Colombia.
+
+My interests range from technology to entrepreneurship. I am also interested in travel, programming, and soccer.
+
+You can also read my blog in spanish if you are interested [https://medium.com/@dloperab](https://medium.com/@dloperab). 
 
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+This website is powered by **[fastpages](https://github.com/fastai/fastpages)**
