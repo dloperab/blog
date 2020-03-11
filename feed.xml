@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-03-10T22:23:16-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with [fastpages](https://github.com/fastai/fastpages) platform</subtitle><entry><title type="html">Weekly Mendations 018</title><link href="https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html" rel="alternate" type="text/html" title="Weekly Mendations 018" /><published>2020-02-28T00:00:00-06:00</published><updated>2020-02-28T00:00:00-06:00</updated><id>https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html">&lt;h1 id=&quot;weekly-mendations-018&quot;&gt;Weekly-mendations #018&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-03-10T22:28:54-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with [fastpages](https://github.com/fastai/fastpages) platform</subtitle><entry><title type="html">Weekly Mendations 018</title><link href="https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html" rel="alternate" type="text/html" title="Weekly Mendations 018" /><published>2020-02-28T00:00:00-06:00</published><updated>2020-02-28T00:00:00-06:00</updated><id>https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html">&lt;h1 id=&quot;weekly-mendations-018&quot;&gt;Weekly-mendations #018&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_018.jpeg&quot; alt=&quot;&quot; title=&quot;Image by Seanbatty from Pixabay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hi!&lt;/p&gt;
 
-&lt;p&gt;Following the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
 
-&lt;h2 id=&quot;stories&quot;&gt;Stories:&lt;/h2&gt;
+&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/my-first-day-as-a-computer-vision-engineer-8b59750c79a0&quot;&gt;My First Day As A Computer Vision Engineer&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/three-things-i-learned-at-amazon-that-prepared-me-for-a-career-in-machine-learning-63b6dae5bc5&quot;&gt;Three Things I Learned At Amazon That Prepared Me For A Career In Machine Learning&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;python&quot;&gt;Python:&lt;/h2&gt;
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/10-great-ml-practices-for-python-developers-b089eefc18fc&quot;&gt;10 Useful ML Practices For Python Developers&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/automate-boring-tasks-with-your-own-functions-a32785437179&quot;&gt;7 Simple Python Functions to Clean Your Data&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;time-series-database&quot;&gt;Time-Series Database:&lt;/h2&gt;
+&lt;h2 id=&quot;time-series-database&quot;&gt;Time-Series Database&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/uber-m3-is-a-time-series-database-for-massively-scalable-machine-learning-problems-23852a6fc76a&quot;&gt;Uber M3 is a Time-Series Database for Massively Scalable Machine Learning Problems&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;automl&quot;&gt;AutoML:&lt;/h2&gt;
+&lt;h2 id=&quot;automl&quot;&gt;AutoML&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/automl-for-time-series-forecasting-6caaf194d268&quot;&gt;AutoML for Time Series Forecasting&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/getting-started-with-autokeras-8c5332b829&quot;&gt;Getting Started with AutoKeras&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;ml-courses&quot;&gt;ML Courses:&lt;/h2&gt;
+&lt;h2 id=&quot;ml-courses&quot;&gt;ML Courses&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/&quot;&gt;Udemy: PyTorch for Deep Learning with Python Bootcamp&lt;/a&gt;.&lt;/li&gt;
@@ -43,4 +43,4 @@
 
 &lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb&lt;/p&gt;
 
-&lt;h3 id=&quot;thank-you-namaste-and-good-luck&quot;&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/h3&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #018</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #018</summary></entry></feed>
