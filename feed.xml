@@ -1,6 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-03-16T07:36:52-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 019</title><link href="https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html" rel="alternate" type="text/html" title="Weekly Mendations 019" /><published>2020-03-16T00:00:00-05:00</published><updated>2020-03-16T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html">&lt;h1 id=&quot;weekly-mendations-19&quot;&gt;Weekly-mendations #19&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-03-24T07:38:53-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 020</title><link href="https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html" rel="alternate" type="text/html" title="Weekly Mendations 020" /><published>2020-03-24T00:00:00-05:00</published><updated>2020-03-24T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html">&lt;h1 id=&quot;weekly-mendations-20&quot;&gt;Weekly-mendations #20&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_019.jpeg&quot; alt=&quot;&quot; title=&quot;Image by Gordon Johnson from Pixabay&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_020.jpg&quot; alt=&quot;&quot; title=&quot;Image by Pexels from Pixabay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/top-3-python-functions-you-dont-know-about-probably-978f4be1e6d&quot;&gt;Top 3 Python Functions You Don’t Know About (Probably)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jupyter-notebooks&quot;&gt;Jupyter Notebooks&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@mrdatainsight/how-to-use-opencv-imshow-in-a-jupyter-notebook-quick-tip-ce83fa32b5ad&quot;&gt;How to use OpenCV imshow() in a Jupyter Notebook — Quick Tip&lt;/a&gt; or &lt;a href=&quot;https://github.com/googlecolab/colabtools/blob/master/google/colab/patches/__init__.py&quot;&gt;Use &lt;strong&gt;cv2_imshow&lt;/strong&gt; function from &lt;strong&gt;&lt;em&gt;google.colab.patches module&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.edureka.co/blog/wp-content/uploads/2018/10/Jupyter_Notebook_CheatSheet_Edureka.pdf&quot;&gt;edureka! - Jupyter Notebook Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/&quot;&gt;cheatography - Jupyter Notebook Keyboard Shortcuts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pytorch&quot;&gt;PyTorch&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/hello-pytorch-installation-numpy-comparison-9879fd677af3&quot;&gt;Hello PyTorch — Installation &amp;amp; Numpy Comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tensorflow&quot;&gt;TensorFlow&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/an-utterly-simple-guide-on-installing-tensorflow-gpu-2-0-on-windows-10-198368dc07a1&quot;&gt;An Utterly Simple Guide on Installing Tensorflow-GPU 2.0 on Windows 10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ai--covid-19&quot;&gt;AI + COVID-19&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.semanticscholar.org/coronavirus-research&quot;&gt;COVID-19 Open Research Dataset (CORD-19)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/kaggle-released-cord-19-an-ai-challenge-on-the-covid-19-50d657378ff4&quot;&gt;Kaggle Released CORD-19 — an AI Challenge on the COVID-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GZ0yNMnvwqY&quot;&gt;Jeremy Howard (fast.ai) - A practical summary of the covid-19 situation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;home-working-tips&quot;&gt;Home Working Tips&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://manuelzapata.co/9-recomendaciones-trabajo-remoto-no-infierno/&quot;&gt;9 recomendaciones para que el trabajo remoto no se vuelva un infierno&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://manuelzapata.co/teletrabajo-tips-laborales/&quot;&gt;¿Haces teletrabajo? Estos tips laborales te pueden hacer triunfar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://link.medium.com/ph9fsLWe74&quot;&gt;https://link.medium.com/ph9fsLWe74&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #20</summary></entry><entry><title type="html">Weekly Mendations 019</title><link href="https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html" rel="alternate" type="text/html" title="Weekly Mendations 019" /><published>2020-03-16T00:00:00-05:00</published><updated>2020-03-16T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html">&lt;h1 id=&quot;weekly-mendations-19&quot;&gt;Weekly-mendations #19&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_019.png&quot; alt=&quot;&quot; title=&quot;Image by Gordon Johnson from Pixabay&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hi!&lt;/p&gt;
 
