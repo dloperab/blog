@@ -6,7 +6,7 @@ categories: [markdown]
 ---
 # Weekly-mendations #19
 
-![]({{ site.baseurl }}/images/weekly_mendations/wm_019.jpeg "Image by Gordon Johnson from Pixabay")
+![]({{ site.baseurl }}/images/weekly_mendations/wm_019.png "Image by Gordon Johnson from Pixabay")
 
 Hi!
 
