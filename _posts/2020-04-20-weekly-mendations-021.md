@@ -14,7 +14,7 @@ Next, the delivery of the *weekly-mendations* of the week:
 
 ## Stories
 
-- [Microsoft France: Surfrider EU - Plastic Origins Project | CodeStories](https://www.youtube.com/watch?v=eXS3OFTU3t8&feature=youtu.be&t=70)
+- [Microsoft France: Surfrider EU - Plastic Origins Project - CodeStories](https://www.youtube.com/watch?v=eXS3OFTU3t8&feature=youtu.be&t=70)
 - [Empowering digital transformation with .NET, ML and Azure](https://www.youtube.com/watch?v=SriyUJEpMAU)
 
 ## Projects
