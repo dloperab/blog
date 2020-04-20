@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-03-24T07:38:53-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 020</title><link href="https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html" rel="alternate" type="text/html" title="Weekly Mendations 020" /><published>2020-03-24T00:00:00-05:00</published><updated>2020-03-24T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html">&lt;h1 id=&quot;weekly-mendations-20&quot;&gt;Weekly-mendations #20&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-04-20T08:13:17-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 021</title><link href="https://dloperab.github.io/blog/markdown/2020/04/20/weekly-mendations-021.html" rel="alternate" type="text/html" title="Weekly Mendations 021" /><published>2020-04-20T00:00:00-05:00</published><updated>2020-04-20T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/04/20/weekly-mendations-021</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/04/20/weekly-mendations-021.html">&lt;h1 id=&quot;weekly-mendations-21&quot;&gt;Weekly-mendations #21&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_021.jpg&quot; alt=&quot;&quot; title=&quot;Image by Lubos Houska from Pixabay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;[Microsoft France: Surfrider EU - Plastic Origins Project&lt;/td&gt;
+          &lt;td&gt;CodeStories](https://www.youtube.com/watch?v=eXS3OFTU3t8&amp;amp;feature=youtu.be&amp;amp;t=70)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SriyUJEpMAU&quot;&gt;Empowering digital transformation with .NET, ML and Azure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cgarciae/dataget&quot;&gt;Dataget&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://theairlab.org/tartanair-dataset/&quot;&gt;TartanAir: A Dataset to Push the Limits of Visual SLAM&lt;/a&gt; / &lt;a href=&quot;https://arxiv.org/abs/2003.14338&quot;&gt;Paper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://airbnb-amenity-detection.appspot.com/&quot;&gt;Airbnb Amenity Detection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mlwhiz.com/blog/2019/12/25/prod/&quot;&gt;Take your Machine Learning Models to Production with these 5 simple steps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://channel9.msdn.com/Shows/AI-Show/An-Intuitive-Approach-to-Machine-Learning-Models-Part-1-of-4&quot;&gt;An Intuitive Approach to Machine Learning Models (Series)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HrNc0zw2-5k&quot;&gt;Introduction to Enterprise Scale Machine Learning in Production in 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.infoq.com/news/2020/04/uber-fiber-distributed-ml/&quot;&gt;Uber AI Introduce Fiber, a New Library for Distributed Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLMjtoLHNjR0uRFRoaBHPgiAo6gWBNaaZh&quot;&gt;Global AI Community - On virtual tour&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-021-be6c65460d52&quot;&gt;https://medium.com/@dloperab/weekly-mendations-021-be6c65460d52&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #21</summary></entry><entry><title type="html">Weekly Mendations 020</title><link href="https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html" rel="alternate" type="text/html" title="Weekly Mendations 020" /><published>2020-03-24T00:00:00-05:00</published><updated>2020-03-24T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html">&lt;h1 id=&quot;weekly-mendations-20&quot;&gt;Weekly-mendations #20&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_020.jpg&quot; alt=&quot;&quot; title=&quot;Image by Pexels from Pixabay&quot; /&gt;&lt;/p&gt;
 
