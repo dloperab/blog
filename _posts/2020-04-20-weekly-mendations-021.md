@@ -1,5 +1,6 @@
 ---
 toc: true
+layout: post
 description: Weekly-mendations #021
 categories: [markdown]
 ---
