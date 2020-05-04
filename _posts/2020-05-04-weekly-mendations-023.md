@@ -34,6 +34,6 @@ Next, the delivery of the *weekly-mendations* of the week:
 - [Deploy Any Python Project to Kubernetes](https://towardsdatascience.com/deploy-any-python-project-to-kubernetes-2c6ad4d41f14)
 - [Creating a Website to Host your Python Web Application](https://towardsdatascience.com/creating-a-website-to-host-your-python-web-application-f06f694a87e8)
 
-**Spanish post:** [https://medium.com/@dloperab/weekly-mendations-023-](https://medium.com/@dloperab/weekly-mendations-023-)
+**Spanish post:** [https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406](https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406)
 
 ***“Thank you, namaste, and good luck”***
