@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-04-27T07:18:15-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 022</title><link href="https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html" rel="alternate" type="text/html" title="Weekly Mendations 022" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html">&lt;h1 id=&quot;weekly-mendations-22&quot;&gt;Weekly-mendations #22&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-05-04T07:33:33-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 023</title><link href="https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023.html" rel="alternate" type="text/html" title="Weekly Mendations 023" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023.html">&lt;h1 id=&quot;weekly-mendations-23&quot;&gt;Weekly-mendations #23&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_023.jpg&quot; alt=&quot;&quot; title=&quot;Image by Colin Behrens from Pixabay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-trap-of-tutorials-and-online-courses-2b0c22e0388&quot;&gt;The Trap of tutorials and online courses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deep-learning-course-notebooks-worth-2-000-are-now-open-source-7d6bc759ef47&quot;&gt;Deep Learning Course notebooks worth $2,000 are now open source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pytorch&quot;&gt;PyTorch&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/reasons-to-choose-pytorch-for-deep-learning-c087e031eaca&quot;&gt;Reasons to Choose PyTorch for Deep Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/fastai-and-pytorch-lightning-are-democratising-ai-92318ff224b1&quot;&gt;fastai and PyTorch Lightning are democratising AI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/pytorch-step-by-step-implementation-3d-convolution-neural-network-8bf38c70e8b3&quot;&gt;Pytorch: Step by Step implementation 3D Convolution Neural Network&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/why-we-do-machine-learning-engineering-with-yaml-not-notebooks-a2a97f5e04f8&quot;&gt;Why we do machine learning engineering with YAML, not notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/10-interesting-python-tricks-to-knock-your-socks-off-1dd4d8e82101&quot;&gt;10 Interesting Python Tricks to knock your socks off&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-zen-of-python-write-beautiful-code-e36844381ee6&quot;&gt;The Zen of Python: Write Beautiful Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deploy-any-python-project-to-kubernetes-2c6ad4d41f14&quot;&gt;Deploy Any Python Project to Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/creating-a-website-to-host-your-python-web-application-f06f694a87e8&quot;&gt;Creating a Website to Host your Python Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-023-&quot;&gt;https://medium.com/@dloperab/weekly-mendations-023-&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #23</summary></entry><entry><title type="html">Weekly Mendations 022</title><link href="https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html" rel="alternate" type="text/html" title="Weekly Mendations 022" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html">&lt;h1 id=&quot;weekly-mendations-22&quot;&gt;Weekly-mendations #22&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_022.jpg&quot; alt=&quot;&quot; title=&quot;Image by Mediamodifier from Pixabay&quot; /&gt;&lt;/p&gt;
 
