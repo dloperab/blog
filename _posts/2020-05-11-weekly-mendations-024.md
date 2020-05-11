@@ -38,7 +38,7 @@ Next, the delivery of the *weekly-mendations* of the week:
 
 ## Podcast
 
-- [Interview w Sylvain Gugger | fast.ai: The new Framework & course | FastBook & Research at fast.ai](https://anchor.fm/chaitimedatascience/episodes/Interview-w-Sylvain-Gugger--fast-ai-The-new-Framework--course--FastBook--Research-at-fast-ai-eb5a6a/a-a1jtjmp)
+- [Interview w Sylvain Gugger - fast.ai: The new Framework & course - FastBook & Research at fast.ai](https://anchor.fm/chaitimedatascience/episodes/Interview-w-Sylvain-Gugger--fast-ai-The-new-Framework--course--FastBook--Research-at-fast-ai-eb5a6a/a-a1jtjmp)
 
 **Spanish post:** [https://medium.com/@dloperab/weekly-mendations-024-57b4c976e351](https://medium.com/@dloperab/weekly-mendations-024-57b4c976e351)
 
