@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Weekly Mendations 025",
+            "content": "Weekly-mendations #25 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Projects . Replicating Airbnb’s Amenity Detection with Detectron2 | 5 Awesome Projects to Hone Your Deep Learning Skills | 7 Data Science Project Ideas for Aspiring Data Scientists | Create ML: A GUI for training Neural Networks | . Python . Python’s @classmethod and @staticmethod Explained | Building A Real-time Dashboard Using Python Plotly Library And Web Service | 7 Modern Python Mistakes To Fix NOW! | . PyTorch vs TensorFlow . One simple chart: TensorFlow vs. PyTorch in job postings | TensorFlow vs Pytorch: The battle continues | . Courses . DevHack new workshops | . Spanish post: https://medium.com/@dloperab/weekly-mendations-025-XXX . “Thank you, namaste, and good luck” .",
+            "url": "https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025.html",
+            "relUrl": "/markdown/2020/05/19/weekly-mendations-025.html",
+            "date": " • May 19, 2020"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Weekly Mendations 024",
             "content": "Weekly-mendations #24 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . How I turned my older laptop into a Machine Learning Superstar with an eGPU | Singapore’s first drone delivery service takes flight | Reducing the carbon footprint of artificial intelligence | . Software Development . VS Code extensions that make me fall in love with programming each day | 10 developer skills on the rise — and five on the decline | . Projects . AI-benchmark | . PyTorch . Facebook and Amazon Bring Two Projects to PyTorch 1.5 that Streamline the Lifecycle of Production-Ready Deep Learning Models | TensorFlow or PyTorch? | . Python . Top 3 Python Functions I Wish I Knew Earlier | . Podcast . Interview w Sylvain Gugger - fast.ai: The new Framework &amp; course - FastBook &amp; Research at fast.ai | . Spanish post: https://medium.com/@dloperab/weekly-mendations-024-57b4c976e351 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/05/11/weekly-mendations-024.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "Weekly Mendations 023",
             "content": "Weekly-mendations #23 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . The Trap of tutorials and online courses | Deep Learning Course notebooks worth $2,000 are now open source | . PyTorch . Reasons to Choose PyTorch for Deep Learning | fastai and PyTorch Lightning are democratising AI | Pytorch: Step by Step implementation 3D Convolution Neural Network | . Machine Learning . Why we do machine learning engineering with YAML, not notebooks | . Python . 10 Interesting Python Tricks to knock your socks off | The Zen of Python: Write Beautiful Code | Deploy Any Python Project to Kubernetes | Creating a Website to Host your Python Web Application | . Spanish post: https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "Weekly Mendations 022",
             "content": "Weekly-mendations #22 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Tools . Make Sense: Annotate Your Image — Using Online Annotation Tool! | CV-Studio: CV-Studio is a graphical annotation tool to address different Computer Vision tasks | . Machine Learning . 20 Machine Learning Interview Questions You Must Know for Data Scientists | 10 free books to read if you are studying machine learning | Top 5 apps for Data Scientists | . Auto ML . Master Auto ML in Python — An Overview of the MLBox package | . Azure ML . The Best Way to Start With Azure Machine Learning | Azure Machine Learning SDK for Python | . Alexa Skills . Alexa Python Development: Build and Deploy an Alexa Skill | . Courses . AI for Medicine Specialization - deeplearning.ai | . Spanish post: https://medium.com/@dloperab/weekly-mendations-022-c66c6f160ce6 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html",
@@ -34,9 +45,9 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "Weekly Mendations 021",
-            "content": "Weekly-mendations #21 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . Microsoft France: Surfrider EU - Plastic Origins Project - CodeStories | Empowering digital transformation with .NET, ML and Azure | . Projects . Dataget | TartanAir: A Dataset to Push the Limits of Visual SLAM / Paper | Airbnb Amenity Detection | . Machine Learning . Take your Machine Learning Models to Production with these 5 simple steps | An Intuitive Approach to Machine Learning Models (Series) | Introduction to Enterprise Scale Machine Learning in Production in 2020 | Uber AI Introduce Fiber, a New Library for Distributed Machine Learning | . Events . Global AI Community - On virtual tour | . Spanish post: https://medium.com/@dloperab/weekly-mendations-021-be6c65460d52 . “Thank you, namaste, and good luck” .",
+            "content": "Weekly-mendations #21 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . Microsoft France: Surfrider EU - Plastic Origins Project - CodeStories | Empowering digital transformation with .NET, ML and Azure | . Projects . Dataget | TartanAir: A Dataset to Push the Limits of Visual SLAM / Paper | . Machine Learning . Take your Machine Learning Models to Production with these 5 simple steps | An Intuitive Approach to Machine Learning Models (Series) | Introduction to Enterprise Scale Machine Learning in Production in 2020 | Uber AI Introduce Fiber, a New Library for Distributed Machine Learning | . Events . Global AI Community - On virtual tour | . Spanish post: https://medium.com/@dloperab/weekly-mendations-021-be6c65460d52 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/04/20/weekly-mendations-021.html",
             "relUrl": "/markdown/2020/04/20/weekly-mendations-021.html",
             "date": " • Apr 20, 2020"
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "Weekly Mendations 020",
             "content": "Weekly-mendations #20 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Python . Top 3 Python Functions You Don’t Know About (Probably) | . Jupyter Notebooks . How to use OpenCV imshow() in a Jupyter Notebook — Quick Tip or Use cv2_imshow function from google.colab.patches module | edureka! - Jupyter Notebook Cheat Sheet | cheatography - Jupyter Notebook Keyboard Shortcuts | . PyTorch . Hello PyTorch — Installation &amp; Numpy Comparison | . TensorFlow . An Utterly Simple Guide on Installing Tensorflow-GPU 2.0 on Windows 10 | . AI + COVID-19 . COVID-19 Open Research Dataset (CORD-19) | Kaggle Released CORD-19 — an AI Challenge on the COVID-19 | Jeremy Howard (fast.ai) - A practical summary of the covid-19 situation | . Home Working Tips . 9 recomendaciones para que el trabajo remoto no se vuelva un infierno | ¿Haces teletrabajo? Estos tips laborales te pueden hacer triunfar | . Spanish post: https://link.medium.com/ph9fsLWe74 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html",
@@ -56,7 +67,7 @@
     
   
     
-        ,"post5": {
+        ,"post6": {
             "title": "Weekly Mendations 019",
             "content": "Weekly-mendations #19 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Projects . MediaPipe: A cross-platform framework for building multimodal applied machine learning pipelines | . Courses/Certifications . TensorFlow Developer Certificate | Getting Started with DeepStream for Video Analytics on Jetson Nano | Dot CSV - Recursos de IA (Libros, Cursos, Webs) | . ML/DL Articles . Intro to FastAI: Installation and Building our First Classifier | The Frameworks that Google, DeepMind, Microsoft and Uber Use to Train Deep Learning Models at Scale | Top Google AI Tools for Everyone | The Most Useful ML Tools 2020 | . Computer Vision . Google’s Objectron uses AI to track 3D objects in 2D video | 5 Ways You Can Learn Computer Vision | . Spanish post: https://medium.com/@dloperab/weekly-mendations-019-8fa9f64f8ed?sk=f0515bc0f469d97a0e2253f835955b88 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html",
@@ -67,7 +78,7 @@
     
   
     
-        ,"post6": {
+        ,"post7": {
             "title": "Weekly Mendations 018",
             "content": "Weekly-mendations #018 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . My First Day As A Computer Vision Engineer. | Three Things I Learned At Amazon That Prepared Me For A Career In Machine Learning. | . Python . 10 Useful ML Practices For Python Developers. | 7 Simple Python Functions to Clean Your Data. | . Time-Series Database . Uber M3 is a Time-Series Database for Massively Scalable Machine Learning Problems. | . AutoML . AutoML for Time Series Forecasting. | Getting Started with AutoKeras. | . ML Courses . Udemy: PyTorch for Deep Learning with Python Bootcamp. | MIT: Introduction to Deep Learning (2020). | Top 20 free Data Science, ML and AI MOOCs on the Internet. | . Spanish post: https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html",
