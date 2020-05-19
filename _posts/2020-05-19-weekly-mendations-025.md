@@ -34,6 +34,6 @@ Next, the delivery of the *weekly-mendations* of the week:
 
 - [DevHack new workshops](https://www.devhack.co/#courses)
 
-**Spanish post:** [https://medium.com/@dloperab/weekly-mendations-025-XXX](https://medium.com/@dloperab/weekly-mendations-025-XXX)
+**Spanish post:** [https://medium.com/@dloperab/weekly-mendations-025-248b0db08705](https://medium.com/@dloperab/weekly-mendations-025-248b0db08705)
 
 ***“Thank you, namaste, and good luck”***
