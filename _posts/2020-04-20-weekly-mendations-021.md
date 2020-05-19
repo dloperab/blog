@@ -21,7 +21,6 @@ Next, the delivery of the *weekly-mendations* of the week:
 
 - [Dataget](https://github.com/cgarciae/dataget)
 - [TartanAir: A Dataset to Push the Limits of Visual SLAM](http://theairlab.org/tartanair-dataset/) / [Paper](https://arxiv.org/abs/2003.14338)
-- [Airbnb Amenity Detection](https://airbnb-amenity-detection.appspot.com/)
 
 ## Machine Learning
 
