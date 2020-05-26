@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-05-19T08:15:21-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 025</title><link href="https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025.html" rel="alternate" type="text/html" title="Weekly Mendations 025" /><published>2020-05-19T00:00:00-05:00</published><updated>2020-05-19T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025.html">&lt;h1 id=&quot;weekly-mendations-25&quot;&gt;Weekly-mendations #25&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-05-26T07:45:21-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 026</title><link href="https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html" rel="alternate" type="text/html" title="Weekly Mendations 026" /><published>2020-05-26T00:00:00-05:00</published><updated>2020-05-26T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html">&lt;h1 id=&quot;weekly-mendations-26&quot;&gt;Weekly-mendations #26&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_026.jpg&quot; alt=&quot;&quot; title=&quot;Image by Ahmad Ardity from Pixabay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/machine-learning-engineers-will-not-exist-in-10-years-c9cbbf4472f3&quot;&gt;Machine Learning Engineers Will Not Exist In 10 Years&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/google-colab-how-does-it-compare-to-a-gpu-enabled-laptop-851c1e0a2ca9&quot;&gt;Google Colab: How does it compare to a GPU-enabled laptop?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/dont-become-a-data-scientist-ee4769899025&quot;&gt;Don’t Become a Data Scientist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-science-study&quot;&gt;Data Science Study&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/if-i-had-to-start-learning-data-science-again-how-would-i-do-it-78a72b80fd93&quot;&gt;If I had to start learning Data Science again, how would I do it?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/resources-i-wish-i-knew-when-i-started-out-with-data-science-9a8889654c36&quot;&gt;Resources I Wish I Knew When I Started Out With Data Science&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/5-great-data-science-books-for-lifelong-learners-3a6405a7f890&quot;&gt;5 Great Data-Science Books For Lifelong Learners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ml-production&quot;&gt;ML Production&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/production-machine-learning-isnt-hard-anymore-932bd91e138f&quot;&gt;Production machine learning isn’t hard anymore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01&quot;&gt;Deploy Machine Learning Pipeline on the cloud using Docker Container&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/41-questions-to-test-your-knowledge-of-python-strings-9eb473aa8fe8&quot;&gt;41 Questions to Test your Knowledge of Python Strings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/python-libraries-for-natural-language-processing-be0e5a35dd64&quot;&gt;Python Libraries for Natural Language Processing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-026-9ede083f90ba&quot;&gt;https://medium.com/@dloperab/weekly-mendations-026-9ede083f90ba&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #26</summary></entry><entry><title type="html">Weekly Mendations 025</title><link href="https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025.html" rel="alternate" type="text/html" title="Weekly Mendations 025" /><published>2020-05-19T00:00:00-05:00</published><updated>2020-05-19T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025.html">&lt;h1 id=&quot;weekly-mendations-25&quot;&gt;Weekly-mendations #25&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_025.jpg&quot; alt=&quot;&quot; title=&quot;Image by Thanks for your Like • donations welcome from Pixabay&quot; /&gt;&lt;/p&gt;
 
