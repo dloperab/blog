@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-05-26T07:45:21-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 026</title><link href="https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html" rel="alternate" type="text/html" title="Weekly Mendations 026" /><published>2020-05-26T00:00:00-05:00</published><updated>2020-05-26T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html">&lt;h1 id=&quot;weekly-mendations-26&quot;&gt;Weekly-mendations #26&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-06-08T07:48:56-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 027</title><link href="https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html" rel="alternate" type="text/html" title="Weekly Mendations 027" /><published>2020-06-08T00:00:00-05:00</published><updated>2020-06-08T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html">&lt;h1 id=&quot;weekly-mendations-27&quot;&gt;Weekly-mendations #27&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_027.png&quot; alt=&quot;&quot; title=&quot;Image by Ahmed Gad from Pixabay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/probably-the-best-resource-to-learn-deep-learning-in-2020-66d13a8ab1f1&quot;&gt;Probably the Best Resource to Learn Deep Learning in 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://e2eml.school/blog.html&quot;&gt;End-to-End Machine Learning Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/machine-learning-world/tutorial-making-road-traffic-counting-app-based-on-computer-vision-and-opencv-166937911660&quot;&gt;Tutorial: Making Road Traffic Counting App based on Computer Vision and OpenCV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://poloclub.github.io/cnn-explainer/&quot;&gt;CNN Explainer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dexplo/dataframe_image&quot;&gt;dataframe_image&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mlops&quot;&gt;MLOps&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/services/machine-learning/mlops/&quot;&gt;Machine learning operations (MLOps)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://channel9.msdn.com/Shows/AI-Show/MLOps-feature-dive-CICD-with-GitHub-Actions&quot;&gt;MLOps feature dive: CI/CD with GitHub Actions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mlnet&quot;&gt;ML&lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;NET&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/train-image-classification-model-azure-mlnet-model-builder/&quot;&gt;Using ML.NET for deep learning on images in Azure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;maths-for-ml&quot;&gt;Maths for ML&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://madewithml.com/topics/linear-algebra/&quot;&gt;Linear Algebra (Made with ML)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Blog Natalia Acevedo: &lt;a href=&quot;https://nataliaacevedo.com/algebra-lineal-basica-con-numpy-parte-i/&quot;&gt;Álgebra Lineal (básica) con Numpy Parte I&lt;/a&gt; y &lt;a href=&quot;https://nataliaacevedo.com/algebra-lineal-con-numpy-machine-learning/&quot;&gt;Part II&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-027-c8eb3c2f2950&quot;&gt;https://medium.com/@dloperab/weekly-mendations-027-c8eb3c2f2950&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #27</summary></entry><entry><title type="html">Weekly Mendations 026</title><link href="https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html" rel="alternate" type="text/html" title="Weekly Mendations 026" /><published>2020-05-26T00:00:00-05:00</published><updated>2020-05-26T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html">&lt;h1 id=&quot;weekly-mendations-26&quot;&gt;Weekly-mendations #26&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_026.jpg&quot; alt=&quot;&quot; title=&quot;Image by Ahmad Ardity from Pixabay&quot; /&gt;&lt;/p&gt;
 
