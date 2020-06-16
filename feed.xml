@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-06-08T07:48:56-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 027</title><link href="https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html" rel="alternate" type="text/html" title="Weekly Mendations 027" /><published>2020-06-08T00:00:00-05:00</published><updated>2020-06-08T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html">&lt;h1 id=&quot;weekly-mendations-27&quot;&gt;Weekly-mendations #27&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-06-16T07:06:31-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 028</title><link href="https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html" rel="alternate" type="text/html" title="Weekly Mendations 028" /><published>2020-06-16T00:00:00-05:00</published><updated>2020-06-16T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html">&lt;h1 id=&quot;weekly-mendations-28&quot;&gt;Weekly-mendations #28&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_028.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the second delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week, this time about the past Microsoft Build 2020:&lt;/p&gt;
+
+&lt;h2 id=&quot;ms-build-2020-highlights&quot;&gt;MS Build 2020 Highlights&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mybuild.microsoft.com/&quot;&gt;The 2020 on-demand sessions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://csharp.christiannagel.com/2020/05/21/build2020/&quot;&gt;Microsoft Build 2020 – Highlights&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dotnetcurry.com/dotnetcore/1538/microsoft-msbuild-2020-developer-highlights&quot;&gt;Microsoft Build 2020 for Developers - Recap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devblogs.microsoft.com/commandline/windows-terminal-1-0/&quot;&gt;Windows Terminal 1.0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-build-2020-summary/?sf234145990=1&quot;&gt;The Windows Subsystem for Linux BUILD 2020 Summary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devblogs.microsoft.com/directx/directx-heart-linux/&quot;&gt;DirectX is coming to the Windows Subsystem for Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/architecture/framework/&quot;&gt;Microsoft Azure Well-Architected Framework&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/static-web-apps/?WT.mc_id=build2020_swa-docs-cxa&quot;&gt;Azure Static Web Apps documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://javiersuarezruiz.wordpress.com/2020/05/20/novedades-en-xamarin-forms-presentadas-en-el-build-2020/&quot;&gt;Novedades en Xamarin.Forms presentadas en el Build 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://javiersuarezruiz.wordpress.com/2020/05/19/aloha-maui/&quot;&gt;Introducción de .NET Multi-platform App UI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blogs.microsoft.com/ai/openai-azure-supercomputer/&quot;&gt;Microsoft announces new supercomputer, lays out vision for future AI work&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.genbeta.com/desarrollo/microsoft-openai-crean-inteligencia-artificial-que-autocompleta-codigo-python-a-partir-instrucciones-lenguaje-natural&quot;&gt;Microsoft y OpenAI crean una inteligencia artificial que autocompleta código Python a partir de instrucciones en lenguaje natural&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fZSFNUT6iY8&amp;amp;feature=emb_title&quot;&gt;OpenAI Model Generates Python Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-028-d6b2f9e3a7f8&quot;&gt;https://medium.com/@dloperab/weekly-mendations-028-d6b2f9e3a7f8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #28</summary></entry><entry><title type="html">Weekly Mendations 027</title><link href="https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html" rel="alternate" type="text/html" title="Weekly Mendations 027" /><published>2020-06-08T00:00:00-05:00</published><updated>2020-06-08T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html">&lt;h1 id=&quot;weekly-mendations-27&quot;&gt;Weekly-mendations #27&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_027.png&quot; alt=&quot;&quot; title=&quot;Image by Ahmed Gad from Pixabay&quot; /&gt;&lt;/p&gt;
 
@@ -393,49 +421,4 @@
 
 &lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-019-8fa9f64f8ed?sk=f0515bc0f469d97a0e2253f835955b88&quot;&gt;https://medium.com/@dloperab/weekly-mendations-019-8fa9f64f8ed?sk=f0515bc0f469d97a0e2253f835955b88&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #19</summary></entry><entry><title type="html">Weekly Mendations 018</title><link href="https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html" rel="alternate" type="text/html" title="Weekly Mendations 018" /><published>2020-02-28T00:00:00-06:00</published><updated>2020-02-28T00:00:00-06:00</updated><id>https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html">&lt;h1 id=&quot;weekly-mendations-018&quot;&gt;Weekly-mendations #018&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_018.jpeg&quot; alt=&quot;&quot; title=&quot;Image by Seanbatty from Pixabay&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hi!&lt;/p&gt;
-
-&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
-
-&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/my-first-day-as-a-computer-vision-engineer-8b59750c79a0&quot;&gt;My First Day As A Computer Vision Engineer&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/three-things-i-learned-at-amazon-that-prepared-me-for-a-career-in-machine-learning-63b6dae5bc5&quot;&gt;Three Things I Learned At Amazon That Prepared Me For A Career In Machine Learning&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/10-great-ml-practices-for-python-developers-b089eefc18fc&quot;&gt;10 Useful ML Practices For Python Developers&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/automate-boring-tasks-with-your-own-functions-a32785437179&quot;&gt;7 Simple Python Functions to Clean Your Data&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;time-series-database&quot;&gt;Time-Series Database&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/uber-m3-is-a-time-series-database-for-massively-scalable-machine-learning-problems-23852a6fc76a&quot;&gt;Uber M3 is a Time-Series Database for Massively Scalable Machine Learning Problems&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;automl&quot;&gt;AutoML&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/automl-for-time-series-forecasting-6caaf194d268&quot;&gt;AutoML for Time Series Forecasting&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/getting-started-with-autokeras-8c5332b829&quot;&gt;Getting Started with AutoKeras&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ml-courses&quot;&gt;ML Courses&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/&quot;&gt;Udemy: PyTorch for Deep Learning with Python Bootcamp&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://introtodeeplearning.com/&quot;&gt;MIT: Introduction to Deep Learning (2020)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/top-20-free-data-science-ml-and-ai-moocs-on-the-internet-4036bd0aac12&quot;&gt;Top 20 free Data Science, ML and AI MOOCs on the Internet&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb&quot;&gt;https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #018</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #19</summary></entry></feed>
