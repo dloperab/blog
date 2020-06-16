@@ -10,7 +10,7 @@ categories: [markdown]
 
 Hi!
 
-Next, the second delivery of the *weekly-mendations* of the week, this time about the past Microsoft Build 2020:
+Next, the delivery of the *weekly-mendations* of the week, this time about the past Microsoft Build 2020:
 
 ## MS Build 2020 Highlights
 
