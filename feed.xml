@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-06-16T07:09:19-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 028</title><link href="https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html" rel="alternate" type="text/html" title="Weekly Mendations 028" /><published>2020-06-16T00:00:00-05:00</published><updated>2020-06-16T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html">&lt;h1 id=&quot;weekly-mendations-28&quot;&gt;Weekly-mendations #28&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-06-18T07:45:46-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 029</title><link href="https://dloperab.github.io/blog/markdown/2020/06/18/weekly-mendations-029.html" rel="alternate" type="text/html" title="Weekly Mendations 029" /><published>2020-06-18T00:00:00-05:00</published><updated>2020-06-18T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/18/weekly-mendations-029</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/18/weekly-mendations-029.html">&lt;h1 id=&quot;weekly-mendations-29&quot;&gt;Weekly-mendations #29&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_029.jpg&quot; alt=&quot;&quot; title=&quot;Image by Free-Photos from Pixabay&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the second delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;data-science&quot;&gt;Data science&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/ab-testing-fundamentals-for-every-data-scientist-79dc22aac207&quot;&gt;AB Testing Fundamentals For Every Data Scientist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/10-lesser-known-python-libraries-for-machine-learning-fca7ad32e53c&quot;&gt;10 Lesser-Known Python Libraries for Machine Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/how-to-build-your-own-dataset-for-data-science-projects-7f4ad0429de4&quot;&gt;How to build your own dataset for Data Science projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/60-questions-to-test-your-knowledge-of-python-lists-cca0ebfa0582&quot;&gt;60 Questions to Test Your Knowledge of Python Lists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/why-you-will-fall-in-love-with-python-lists-29d8882db9c4&quot;&gt;Why You Will Fall in Love With Python Lists&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tensorflow&quot;&gt;TensorFlow&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.infoq.com/news/2020/05/google-tensorflow-runtime&quot;&gt;Google Open-Sources New Higher Performance TensorFlow Runtime&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/10-tensorflow-tricks-every-ml-practitioner-must-know-96b860e53c1&quot;&gt;10 TensorFlow Tricks Every ML Practitioner Must Know&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ml-deployment&quot;&gt;ML Deployment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tecton.ai/blog/devops-ml-data/&quot;&gt;Why We Need DevOps for ML Data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deploy-machine-learning-model-on-google-kubernetes-engine-94daac85108b&quot;&gt;Deploy Machine Learning Pipeline on Google Kubernetes Engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/pytorch-levels-up-its-serving-game-with-torchserve-3d97ac502364&quot;&gt;PyTorch Levels Up Its Serving Game with TorchServe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-029-a7a13fdbec7b&quot;&gt;https://medium.com/@dloperab/weekly-mendations-029-a7a13fdbec7b&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #29</summary></entry><entry><title type="html">Weekly Mendations 028</title><link href="https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html" rel="alternate" type="text/html" title="Weekly Mendations 028" /><published>2020-06-16T00:00:00-05:00</published><updated>2020-06-16T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html">&lt;h1 id=&quot;weekly-mendations-28&quot;&gt;Weekly-mendations #28&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_028.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -381,44 +421,4 @@
 
 &lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://link.medium.com/ph9fsLWe74&quot;&gt;https://link.medium.com/ph9fsLWe74&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #20</summary></entry><entry><title type="html">Weekly Mendations 019</title><link href="https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html" rel="alternate" type="text/html" title="Weekly Mendations 019" /><published>2020-03-16T00:00:00-05:00</published><updated>2020-03-16T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html">&lt;h1 id=&quot;weekly-mendations-19&quot;&gt;Weekly-mendations #19&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_019.png&quot; alt=&quot;&quot; title=&quot;Image by Gordon Johnson from Pixabay&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hi!&lt;/p&gt;
-
-&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
-
-&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/google/mediapipe&quot;&gt;MediaPipe&lt;/a&gt;: A cross-platform framework for building multimodal applied machine learning pipelines&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;coursescertifications&quot;&gt;Courses/Certifications&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/certificate&quot;&gt;TensorFlow Developer Certificate&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://courses.nvidia.com/courses/course-v1:DLI+C-IV-02+V1/about&quot;&gt;Getting Started with DeepStream for Video Analytics on Jetson Nano&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iFGgq6btits&quot;&gt;Dot CSV - Recursos de IA (Libros, Cursos, Webs)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;mldl-articles&quot;&gt;ML/DL Articles&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/intro-to-fastai-installation-and-building-our-first-classifier-938e95fd97d3&quot;&gt;Intro to FastAI: Installation and Building our First Classifier&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-frameworks-that-google-deepmind-microsoft-and-uber-use-to-train-deep-learning-models-at-scale-30be6295725&quot;&gt;The Frameworks that Google, DeepMind, Microsoft and Uber Use to Train Deep Learning Models at Scale&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/top-google-ai-tools-for-everyone-60346ab7e08&quot;&gt;Top Google AI Tools for Everyone&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-most-useful-ml-tools-2020-e41b54061c58&quot;&gt;The Most Useful ML Tools 2020&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;computer-vision&quot;&gt;Computer Vision&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://venturebeat.com/2020/03/11/googles-objectron-uses-ai-to-track-3d-objects-in-2d-video/&quot;&gt;Google’s Objectron uses AI to track 3D objects in 2D video&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/5-ways-you-can-learn-computer-vision-6dae3f312686&quot;&gt;5 Ways You Can Learn Computer Vision&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-019-8fa9f64f8ed?sk=f0515bc0f469d97a0e2253f835955b88&quot;&gt;https://medium.com/@dloperab/weekly-mendations-019-8fa9f64f8ed?sk=f0515bc0f469d97a0e2253f835955b88&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #19</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #20</summary></entry></feed>
