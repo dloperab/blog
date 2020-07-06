@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-06-30T07:02:54-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 031</title><link href="https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031.html" rel="alternate" type="text/html" title="Weekly Mendations 031" /><published>2020-06-30T00:00:00-05:00</published><updated>2020-06-30T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031.html">&lt;h1 id=&quot;weekly-mendations-31&quot;&gt;Weekly-mendations #31&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-07-06T06:02:06-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 032</title><link href="https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html" rel="alternate" type="text/html" title="Weekly Mendations 032" /><published>2020-07-06T00:00:00-05:00</published><updated>2020-07-06T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html">&lt;h1 id=&quot;weekly-mendations-32&quot;&gt;Weekly-mendations #32&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_032.jpg&quot; alt=&quot;&quot; title=&quot;Photo by Paul Schafer on Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;tutorials&quot;&gt;Tutorials&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/parulpandey/getting-started-with-time-series-using-pandas&quot;&gt;Getting started with Time Series using Pandas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/practicadesarrollosoft/&quot;&gt;Práctica del Desarrollo de Software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;docker&quot;&gt;Docker&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.katacoda.com/courses/docker&quot;&gt;Learn Docker &amp;amp; Containers using Interactive Browser-Based Scenarios&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ml-net&quot;&gt;ML .NET&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/luisquintanilla/mlnet-workshop&quot;&gt;ML.NET Workshops&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mlops&quot;&gt;MLOps&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-ai/using-github-actions-amp-azure-machine-learning-for-mlops/ba-p/1419027&quot;&gt;Using GitHub Actions &amp;amp; Azure Machine Learning for MLOps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tensorflow&quot;&gt;TensorFlow&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0&quot;&gt;TensorFlow, Keras and deep learning, without a PhD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.tensorflow.org/2020/06/enhance-your-tensorflow-lite-deployment-with-firebase.html&quot;&gt;Enhance your TensorFlow Lite deployment with Firebase&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wsl2-windows-subsystem-for-linux&quot;&gt;WSL2 (Windows Subsystem for Linux)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.nvidia.com/blog/announcing-cuda-on-windows-subsystem-for-linux-2/&quot;&gt;Announcing CUDA on Windows Subsystem for Linux 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=A0eqZujVfYU&quot;&gt;Developing on Windows with WSL2 (Subsystem for Linux), VS Code, Docker, and the Terminal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/blog/getting-started-with-cuda-on-ubuntu-on-wsl-2&quot;&gt;Getting started with CUDA on Ubuntu on WSL 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Medium post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-032-8fb32f234f59&quot;&gt;https://medium.com/@dloperab/weekly-mendations-032-8fb32f234f59&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #32</summary></entry><entry><title type="html">Weekly Mendations 031</title><link href="https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031.html" rel="alternate" type="text/html" title="Weekly Mendations 031" /><published>2020-06-30T00:00:00-05:00</published><updated>2020-06-30T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031.html">&lt;h1 id=&quot;weekly-mendations-31&quot;&gt;Weekly-mendations #31&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_031.jpg&quot; alt=&quot;&quot; title=&quot;Image by StartupStockPhotos from Pixabay&quot; /&gt;&lt;/p&gt;
 
@@ -366,54 +416,4 @@
 
 &lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406&quot;&gt;https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #23</summary></entry><entry><title type="html">Weekly Mendations 022</title><link href="https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html" rel="alternate" type="text/html" title="Weekly Mendations 022" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html">&lt;h1 id=&quot;weekly-mendations-22&quot;&gt;Weekly-mendations #22&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_022.jpg&quot; alt=&quot;&quot; title=&quot;Image by Mediamodifier from Pixabay&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hi!&lt;/p&gt;
-
-&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/annotate-your-image-using-online-annotation-tool-52d0a742daff&quot;&gt;Make Sense: Annotate Your Image — Using Online Annotation Tool!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/haruiz/CvStudio&quot;&gt;CV-Studio: CV-Studio is a graphical annotation tool to address different Computer Vision tasks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/20-machine-learning-interview-practice-problems-3c86a572eeec&quot;&gt;20 Machine Learning Interview Questions You Must Know for Data Scientists&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/completely-free-machine-learning-reading-list-eab0c8990c54&quot;&gt;10 free books to read if you are studying machine learning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/top-5-apps-for-data-scientists-dc8b66886560&quot;&gt;Top 5 apps for Data Scientists&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;auto-ml&quot;&gt;Auto ML&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@ahmedbesbes/automl-in-python-an-overview-of-the-mlbox-package-208118a7fe5&quot;&gt;Master Auto ML in Python — An Overview of the MLBox package&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;azure-ml&quot;&gt;Azure ML&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dev.to/azure/the-best-way-to-start-with-azure-machine-learning-17jl&quot;&gt;The Best Way to Start With Azure Machine Learning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py&quot;&gt;Azure Machine Learning SDK for Python&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;alexa-skills&quot;&gt;Alexa Skills&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://realpython.com/alexa-python-skill/&quot;&gt;Alexa Python Development: Build and Deploy an Alexa Skill&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;courses&quot;&gt;Courses&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/specializations/ai-for-medicine&quot;&gt;AI for Medicine Specialization - deeplearning.ai&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-022-c66c6f160ce6&quot;&gt;https://medium.com/@dloperab/weekly-mendations-022-c66c6f160ce6&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #22</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #23</summary></entry></feed>
