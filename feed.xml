@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-07-06T06:02:06-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 032</title><link href="https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html" rel="alternate" type="text/html" title="Weekly Mendations 032" /><published>2020-07-06T00:00:00-05:00</published><updated>2020-07-06T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html">&lt;h1 id=&quot;weekly-mendations-32&quot;&gt;Weekly-mendations #32&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://dloperab.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dloperab.github.io/blog/" rel="alternate" type="text/html" /><updated>2020-07-15T06:14:57-05:00</updated><id>https://dloperab.github.io/blog/feed.xml</id><title type="html">David Lopera Betancur</title><subtitle>dloperab's english blog generated with fastpages platform</subtitle><entry><title type="html">Weekly Mendations 033</title><link href="https://dloperab.github.io/blog/markdown/2020/07/15/weekly-mendations-033.html" rel="alternate" type="text/html" title="Weekly Mendations 033" /><published>2020-07-15T00:00:00-05:00</published><updated>2020-07-15T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/07/15/weekly-mendations-033</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/07/15/weekly-mendations-033.html">&lt;h1 id=&quot;weekly-mendations-33&quot;&gt;Weekly-mendations #33&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_033.jpg&quot; alt=&quot;&quot; title=&quot;Photo by Markus Winkler on Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
+
+&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sdtimes.com/cloud/microsoft-provides-insight-into-its-programming-language-bosque/&quot;&gt;Microsoft provides insight into its programming language Bosque&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://deepmind.com/research/publications/Acme&quot;&gt;Acme: A new framework for distributed reinforcement learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.technologyreview.com/2020/06/12/1003475/facebooks-deepfake-detection-challenge-neural-network-ai&quot;&gt;Facebook just released a database of 100,000 deepfakes to teach AI how to spot them&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hbr.org/2020/06/the-dumb-reason-your-ai-project-will-fail&quot;&gt;The Dumb Reason Your AI Project Will Fail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/fair-bytes/how-biased-is-gpt-3-5b2b91f1177&quot;&gt;How Biased is GPT-3?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pytorch&quot;&gt;PyTorch&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/&quot;&gt;fastai—A Layered API for Deep Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/pytorch/pytorch-computer-vision-library-for-experts-and-beginners-84b9157584e5&quot;&gt;Introducing Computer Vision Recipes repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mlops&quot;&gt;MLOps&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mlinproduction.com/deploying-machine-learning-models/&quot;&gt;The Ultimate Guide to Deploying Machine Learning Models&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/intro-to-aws-for-machine-learning-3c73afc0214f&quot;&gt;Intro to AWS for Machine Learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507&quot;&gt;Deploy Machine Learning Pipeline on AWS Fargate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Medium post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-033-3f51eed84fc7&quot;&gt;https://medium.com/@dloperab/weekly-mendations-033-3f51eed84fc7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #33</summary></entry><entry><title type="html">Weekly Mendations 032</title><link href="https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html" rel="alternate" type="text/html" title="Weekly Mendations 032" /><published>2020-07-06T00:00:00-05:00</published><updated>2020-07-06T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html">&lt;h1 id=&quot;weekly-mendations-32&quot;&gt;Weekly-mendations #32&lt;/h1&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_032.jpg&quot; alt=&quot;&quot; title=&quot;Photo by Paul Schafer on Unsplash&quot; /&gt;&lt;/p&gt;
 
@@ -376,44 +411,4 @@
 
 &lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-024-57b4c976e351&quot;&gt;https://medium.com/@dloperab/weekly-mendations-024-57b4c976e351&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #24</summary></entry><entry><title type="html">Weekly Mendations 023</title><link href="https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023.html" rel="alternate" type="text/html" title="Weekly Mendations 023" /><published>2020-05-04T00:00:00-05:00</published><updated>2020-05-04T00:00:00-05:00</updated><id>https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023</id><content type="html" xml:base="https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023.html">&lt;h1 id=&quot;weekly-mendations-23&quot;&gt;Weekly-mendations #23&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/images/weekly_mendations/wm_023.jpg&quot; alt=&quot;&quot; title=&quot;Image by Colin Behrens from Pixabay&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hi!&lt;/p&gt;
-
-&lt;p&gt;Next, the delivery of the &lt;em&gt;weekly-mendations&lt;/em&gt; of the week:&lt;/p&gt;
-
-&lt;h2 id=&quot;stories&quot;&gt;Stories&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-trap-of-tutorials-and-online-courses-2b0c22e0388&quot;&gt;The Trap of tutorials and online courses&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deep-learning-course-notebooks-worth-2-000-are-now-open-source-7d6bc759ef47&quot;&gt;Deep Learning Course notebooks worth $2,000 are now open source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;pytorch&quot;&gt;PyTorch&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/reasons-to-choose-pytorch-for-deep-learning-c087e031eaca&quot;&gt;Reasons to Choose PyTorch for Deep Learning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/fastai-and-pytorch-lightning-are-democratising-ai-92318ff224b1&quot;&gt;fastai and PyTorch Lightning are democratising AI&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/pytorch-step-by-step-implementation-3d-convolution-neural-network-8bf38c70e8b3&quot;&gt;Pytorch: Step by Step implementation 3D Convolution Neural Network&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;machine-learning&quot;&gt;Machine Learning&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/why-we-do-machine-learning-engineering-with-yaml-not-notebooks-a2a97f5e04f8&quot;&gt;Why we do machine learning engineering with YAML, not notebooks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/10-interesting-python-tricks-to-knock-your-socks-off-1dd4d8e82101&quot;&gt;10 Interesting Python Tricks to knock your socks off&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-zen-of-python-write-beautiful-code-e36844381ee6&quot;&gt;The Zen of Python: Write Beautiful Code&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/deploy-any-python-project-to-kubernetes-2c6ad4d41f14&quot;&gt;Deploy Any Python Project to Kubernetes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/creating-a-website-to-host-your-python-web-application-f06f694a87e8&quot;&gt;Creating a Website to Host your Python Web Application&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Spanish post:&lt;/strong&gt; &lt;a href=&quot;https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406&quot;&gt;https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #23</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Thank you, namaste, and good luck”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Weekly-mendations #24</summary></entry></feed>
