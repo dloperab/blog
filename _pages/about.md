@@ -4,14 +4,18 @@ title: About Me
 permalink: /about/
 ---
 
-**DAVID LOPERA BETANCUR**
+![]({{ site.baseurl }}/images/DAL_Profile.jpeg)
 
-**Software Developer - .NET / Learning AI**
+**David Lopera Betancur**
 
-I am a software engineer, and active student currently living in Cali, Colombia.
+Actualmente trabajo como Arquitecto de I+D en [GreenSQA](https://greensqa.com/). 
 
-My interests range from technology to entrepreneurship. I am also interested in travel, programming, and soccer.
+Soy Ingeniero de Sistemas de formación, estudiante activo en diversos temas de Ingeniería de Software y actualmente vivo en Cali, Colombia.
 
-You can also read my blog in spanish if you are interested [https://medium.com/@dloperab](https://medium.com/@dloperab). 
+Mis intereses van desde la tecnología hasta el emprendimiento y mejora personal. También me interesan los temas acerca de viajes, programación y fútbol.
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)**
+También publico los artículos de este blog en [https://medium.com/@dloperab](https://medium.com/@dloperab) por si te interesa. 
+
+Puedes consultar mi perfil profesional en mi cuenta de [LinkedIn](https://www.linkedin.com/in/david-lopera-905390119/).
+
+Este sitio Web está construido con **[fastpages](https://github.com/fastai/fastpages)**, una plataforma de blogs fácil de usar con funciones adicionales para Jupyter Notebooks.
