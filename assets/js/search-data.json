@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Instalando TensorFlow 2.x GPU en Windows 10",
+            "content": "Este artículo muestra cómo instalar y configurar TensorFlow 2 en Windows 10 con una tarjeta de video NVIDIA GeForce. . Las características del hardware de mi equipo son: . Sistema operativo: Windows 10 Pro - Versión 20H2. | Procesador: Intel Core i7-8750H CPU @ 2.20GHz 2.21 GHz. | RAM: 32 GB. | Disco duro: 256 GB SSD. | Tarjeta video: NVIDIA GeForce GTX 1060. | . Prerequisitos . Anaconda instalado. Para esta guía se tiene instalada la versión Anaconda 4.9.2 + Python 3.8.5. | Visual Studio 2019 instalado. Requerido para instalación de CUDA Toolkit. | . Verificar compatibilidad de tarjeta de video . Verificar la compatibilidad de la tarjeta de video que se tenga con TensorFlow es de los primeros pasos a realizar. En el caso de esta guía se verificará la compatibilidad para la tarjeta de video NVIDIA GeForce GTX 1060. . a. En el link https://developer.nvidia.com/cuda-gpus se debe buscar la referencia de la tarjeta de video para conocer si es compatible: . . b. La tarjeta de video GTX 1060 cuenta con un &quot;Compute Capability&quot; de 6.1. Lo mínimo requerido es 3.5. Se pueden revisar estos requisitos en el siguiente link https://www.tensorflow.org/install/gpu#hardware_requirements. . . Verificar los requerimientos de software . a. En la documentación oficial de TensorFlow se pueden validar los requerimientos de software mínimos requeridos: . https://www.tensorflow.org/install/gpu#software_requirements | . . En esta guía se instalarán las siguientes versiones: TensorFlow: 2.4.0. | CUDA Toolkit: 11.0. | cuDNN: 8.0.4. | . | . Instalar Visual Studio . a. &quot;CUDA Toolkit 11.0&quot; tiene como requisito tener instalado Visual Studio. Si se revisa la documentación de CUDA en https://docs.nvidia.com/cuda/archive/11.0/cuda-installation-guide-microsoft-windows/, el Visual Studio requerido es 2019. . . b. Si se hace caso omiso al paso anterior, al momento de estar instalando CUDA se podría visualizar un mensaje como el siguiente: . . Actualizar los drivers de la tarjeta de video . a. Instalar/Actualizar drivers de la tarjeta de video: . Opción 1: Utilizando el programa &quot;NVIDIA GeForce Experience&quot;. La versión instalada del driver al momento de crear esta guía es la v460.89: . . Opción 2: Buscar el driver en la página Web de NVIDIA https://www.nvidia.com/Download/index.aspx?lang=en-us: . . b. Verificar los drivers instalados con el comando nvidia-smi en la consola: . . Nota:En caso de no tener acceso al comando nvidia-smi añadir la ruta &quot;C: Program Files NVIDIA Corporation NVSMI&quot; a la variable de entorno path. . Instalar CUDA Toolkit . a. Descargar CUDA v11.0 del sitio de NVIDIA https://developer.nvidia.com/cuda-11.0-download-archive: . . b. Elegir el instalador base de CUDA e iniciar la instalación: . Elegir la opción de instalación Custom: | . . Solo instalar los componentes de CUDA. NO instalar los componentes &quot;NVIDIA GeForce Experience&quot;, &quot;Driver Components&quot; y &quot;Other Components&quot; siempre y cuando las versiones instaladas en el sistema sean mayores que las que se sugiere el instalador: | . . Para mayor información de este paso, se puede revisar el siguiente link https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html para validar que CUDA 11.0 soporta versiones &gt;= 450 del driver de la tarjeta de video en Windows: | . . Si todo ha salido correctamente con la instalación, se debe visualizar la siguiente ventana: | . . Ir a la ruta donde quedó instalado CUDA (C: Program Files NVIDIA GPU Computing Toolkit CUDA v11.0). Esta ruta es importante para pasos posteriores, ya que se debe adicionar a las variables de entorno de Windows. | . c. Para verificar la instalación de CUDA se puede ejecutar el siguiente comando nvcc --version: . . Instalar cuDNN . a. Con base a los requisitos mencionados anteriormente, la versión a instalar de cuDNN es la 8.0.4. . b. Descargar cuDNN desde https://developer.nvidia.com/rdp/cudnn-archive. Requiere Inicio de sesión o Registro (Gratis) para poder obtener los instaladores. . c. Se descarga paquete cuDDN Library for Windows 10 como se visualiza en la siguiente imagen: . . d. En el paso anterior se descarga un archivo &quot;cudnn-11.0-windows-x64-v8.0.4.30.zip&quot; y se procede a descomprimir el archivo. . e. Siguiendo el &quot;Paso 3&quot; de la documentación oficial de NVIDIA en el link https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installwindows, se realiza lo siguiente: . Se copia el archivo &quot; cudnn-11.0-windows-x64-v8.0.4.30 cuda bin cudnn64_8.dll&quot; en la ruta &quot;C: Program Files NVIDIA GPU Computing Toolkit CUDA v11.0 bin&quot;. | Se copia el archivo &quot; cudnn-11.0-windows-x64-v8.0.4.30 cuda include cudnn.h&quot; en la ruta &quot;C: Program Files NVIDIA GPU Computing Toolkit CUDA v11.0 include&quot;. | Se copia el archivo &quot; cudnn-11.0-windows-x64-v8.0.4.30 cuda lib x64 cudnn.lib&quot; en la ruta &quot;C: Program Files NVIDIA GPU Computing Toolkit CUDA v11.0 lib x64&quot;. | . f. Adicionar/Verificar en la variable de entorno PATH las carpetas &quot;C: Program Files NVIDIA GPU Computing Toolkit CUDA v11.0 bin&quot; y &quot;C: Program Files NVIDIA GPU Computing Toolkit CUDA v11.0 libnvvp&quot;: . . Crear el &quot;conda environment&quot; . a. Para crear el environment donde se va a usar TensorFlow se debe tener en cuenta que las versiones de Python soportadas son 3.6-3.8, tal y como se ve en la siguiente tabla: . . b. Abrir la consola de comandos o Anaconda Prompt para crear un nuevo ambiente indicando la versión de Python 3.8. Para efectos de esta guía se crea un environment llamado tensorflow: . conda create --name tensorflow python=3.8 | . . c. Verificar los &quot;environments&quot; creados en Anaconda con el comando conda env list: . . d. Activar el environment con el comando conda activate tensorflow. . Instalar TensorFlow con soporte GPU . a. Escribir el comando pip install tensorflow-gpu==2.4.0 en &quot;Anaconda Prompt&quot; dentro del environment creado: . . b. Al terminar el punto anterior, se procede a probar la instalación de TensorFlow por medio de los siguientes comandos en la consola: . % python &gt; &gt;&gt; import tensorflow as tf &gt;&gt;&gt; tf.test.is_gpu_available() . . Referencias . How to install TensorFlow 2.0 on Ubuntu | Install TensorFlow with GPU Support on Windows 10 (without a full CUDA install) | . Espero este artículo haya sido de gran ayuda. Gracias por leerlo! . “Thank you, namaste, and good luck” .",
+            "url": "https://dloperab.github.io/blog/installing-tf-win-gpu/",
+            "relUrl": "/installing-tf-win-gpu/",
+            "date": " • Jan 8, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Weekly Mendations 033",
             "content": "Weekly-mendations #33 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Machine Learning . Microsoft provides insight into its programming language Bosque | Acme: A new framework for distributed reinforcement learning | Facebook just released a database of 100,000 deepfakes to teach AI how to spot them | The Dumb Reason Your AI Project Will Fail | How Biased is GPT-3? | . PyTorch . fastai—A Layered API for Deep Learning | Introducing Computer Vision Recipes repository | . MLOps . The Ultimate Guide to Deploying Machine Learning Models | Intro to AWS for Machine Learning | Deploy Machine Learning Pipeline on AWS Fargate | . Medium post: https://medium.com/@dloperab/weekly-mendations-033-3f51eed84fc7 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/07/15/weekly-mendations-033.html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "Weekly Mendations 032",
             "content": "Weekly-mendations #32 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Tutorials . Getting started with Time Series using Pandas | Práctica del Desarrollo de Software | . Docker . Learn Docker &amp; Containers using Interactive Browser-Based Scenarios | . ML .NET . ML.NET Workshops | . MLOps . Using GitHub Actions &amp; Azure Machine Learning for MLOps | . TensorFlow . TensorFlow, Keras and deep learning, without a PhD | Enhance your TensorFlow Lite deployment with Firebase | . WSL2 (Windows Subsystem for Linux) . Announcing CUDA on Windows Subsystem for Linux 2 | Developing on Windows with WSL2 (Subsystem for Linux), VS Code, Docker, and the Terminal | Getting started with CUDA on Ubuntu on WSL 2 | . Medium post: https://medium.com/@dloperab/weekly-mendations-032-8fb32f234f59 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/07/06/weekly-mendations-032.html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "Weekly Mendations 031",
             "content": "Weekly-mendations #31 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Tutorials . Create beautiful and simple ML web apps that you can deploy at scale in a few steps | DETR: Object Detection con Transformers | . Python . 10 Smooth Python Tricks For Python Gods | 3 Great Design Patterns for Data Scientists | . PyTorch . 5 Advanced PyTorch Tools to Level up Your Workflow | . ONNX . ONNX Runtime Training Technical Deep Dive | ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator | . Computer Vision . What’s new in YOLOv4? | Character Recognition and Segmentation For Custom Data Using Detectron2 | Bye-bye MobileNet. Hello EfficientNet! | . Medium post: https://medium.com/@dloperab/weekly-mendations-031-c8c7fbeea81f . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/06/30/weekly-mendations-031.html",
@@ -34,7 +45,7 @@
     
   
     
-        ,"post3": {
+        ,"post4": {
             "title": "Weekly Mendations 030",
             "content": "Weekly-mendations #30 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Bias in Machine Learning . What is AI bias? | Guide to Interpretable Machine Learning | Interpretable Machine Learning | Reducing AI bias with Synthetic data | . Tutorials . Transform Jupyter Notebook to an Ebook | A definitive guide for Setting up a Deep Learning Workstation with Ubuntu 18.04 | . PyTorch and Fast.ai . Should you use FastAI? | Multi-Task Learning with Pytorch and FastAI | Deep Learning For NLP with PyTorch and Torchtext | . NVIDIA RAPIDS . Accelerating end-to-end Machine Learning workflows with NVIDIA RAPIDS | . Medium post: https://medium.com/@dloperab/weekly-mendations-030-1bd78761059f . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/06/24/weekly-mendations-030.html",
@@ -45,7 +56,7 @@
     
   
     
-        ,"post4": {
+        ,"post5": {
             "title": "Weekly Mendations 029",
             "content": "Weekly-mendations #29 . . Hi! . Next, the second delivery of the weekly-mendations of the week: . Data science . AB Testing Fundamentals For Every Data Scientist | 10 Lesser-Known Python Libraries for Machine Learning | How to build your own dataset for Data Science projects | . Python . 60 Questions to Test Your Knowledge of Python Lists | Why You Will Fall in Love With Python Lists | . TensorFlow . Google Open-Sources New Higher Performance TensorFlow Runtime | 10 TensorFlow Tricks Every ML Practitioner Must Know | . ML Deployment . Why We Need DevOps for ML Data | Deploy Machine Learning Pipeline on Google Kubernetes Engine | PyTorch Levels Up Its Serving Game with TorchServe | . Spanish post: https://medium.com/@dloperab/weekly-mendations-029-a7a13fdbec7b . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/06/18/weekly-mendations-029.html",
@@ -56,7 +67,7 @@
     
   
     
-        ,"post5": {
+        ,"post6": {
             "title": "Weekly Mendations 028",
             "content": "Weekly-mendations #28 . . Hi! . Next, the delivery of the weekly-mendations of the week, this time about the past Microsoft Build 2020: . MS Build 2020 Highlights . The 2020 on-demand sessions | Microsoft Build 2020 – Highlights | Microsoft Build 2020 for Developers - Recap | Windows Terminal 1.0 | The Windows Subsystem for Linux BUILD 2020 Summary | DirectX is coming to the Windows Subsystem for Linux | Microsoft Azure Well-Architected Framework | Azure Static Web Apps documentation | Novedades en Xamarin.Forms presentadas en el Build 2020 | Introducción de .NET Multi-platform App UI | Microsoft announces new supercomputer, lays out vision for future AI work | Microsoft y OpenAI crean una inteligencia artificial que autocompleta código Python a partir de instrucciones en lenguaje natural | OpenAI Model Generates Python Code | . Spanish post: https://medium.com/@dloperab/weekly-mendations-028-d6b2f9e3a7f8 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/06/16/weekly-mendations-028.html",
@@ -67,7 +78,7 @@
     
   
     
-        ,"post6": {
+        ,"post7": {
             "title": "Weekly Mendations 027",
             "content": "Weekly-mendations #27 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . Probably the Best Resource to Learn Deep Learning in 2020 | . Projects . End-to-End Machine Learning Library | Tutorial: Making Road Traffic Counting App based on Computer Vision and OpenCV | CNN Explainer | dataframe_image | . MLOps . Machine learning operations (MLOps) | MLOps feature dive: CI/CD with GitHub Actions | . ML.NET . Using ML.NET for deep learning on images in Azure | . Maths for ML . Linear Algebra (Made with ML) | Blog Natalia Acevedo: Álgebra Lineal (básica) con Numpy Parte I y Part II | . Spanish post: https://medium.com/@dloperab/weekly-mendations-027-c8eb3c2f2950 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/06/08/weekly-mendations-027.html",
@@ -78,7 +89,7 @@
     
   
     
-        ,"post7": {
+        ,"post8": {
             "title": "Weekly Mendations 026",
             "content": "Weekly-mendations #26 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . Machine Learning Engineers Will Not Exist In 10 Years | Google Colab: How does it compare to a GPU-enabled laptop? | Don’t Become a Data Scientist | . Data Science Study . If I had to start learning Data Science again, how would I do it? | Resources I Wish I Knew When I Started Out With Data Science | 5 Great Data-Science Books For Lifelong Learners | . ML Production . Production machine learning isn’t hard anymore | Deploy Machine Learning Pipeline on the cloud using Docker Container | . Python . 41 Questions to Test your Knowledge of Python Strings | Python Libraries for Natural Language Processing | . Spanish post: https://medium.com/@dloperab/weekly-mendations-026-9ede083f90ba . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/05/26/weekly-mendations-026.html",
@@ -89,7 +100,7 @@
     
   
     
-        ,"post8": {
+        ,"post9": {
             "title": "Weekly Mendations 025",
             "content": "Weekly-mendations #25 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Projects . Replicating Airbnb’s Amenity Detection with Detectron2 | 5 Awesome Projects to Hone Your Deep Learning Skills | 7 Data Science Project Ideas for Aspiring Data Scientists | Create ML: A GUI for training Neural Networks | . Python . Python’s @classmethod and @staticmethod Explained | Building A Real-time Dashboard Using Python Plotly Library And Web Service | 7 Modern Python Mistakes To Fix NOW! | . PyTorch vs TensorFlow . One simple chart: TensorFlow vs. PyTorch in job postings | TensorFlow vs Pytorch: The battle continues | . Courses . DevHack new workshops | . Spanish post: https://medium.com/@dloperab/weekly-mendations-025-248b0db08705 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/05/19/weekly-mendations-025.html",
@@ -100,7 +111,7 @@
     
   
     
-        ,"post9": {
+        ,"post10": {
             "title": "Weekly Mendations 024",
             "content": "Weekly-mendations #24 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . How I turned my older laptop into a Machine Learning Superstar with an eGPU | Singapore’s first drone delivery service takes flight | Reducing the carbon footprint of artificial intelligence | . Software Development . VS Code extensions that make me fall in love with programming each day | 10 developer skills on the rise — and five on the decline | . Projects . AI-benchmark | . PyTorch . Facebook and Amazon Bring Two Projects to PyTorch 1.5 that Streamline the Lifecycle of Production-Ready Deep Learning Models | TensorFlow or PyTorch? | . Python . Top 3 Python Functions I Wish I Knew Earlier | . Podcast . Interview w Sylvain Gugger - fast.ai: The new Framework &amp; course - FastBook &amp; Research at fast.ai | . Spanish post: https://medium.com/@dloperab/weekly-mendations-024-57b4c976e351 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/05/11/weekly-mendations-024.html",
@@ -111,7 +122,7 @@
     
   
     
-        ,"post10": {
+        ,"post11": {
             "title": "Weekly Mendations 023",
             "content": "Weekly-mendations #23 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . The Trap of tutorials and online courses | Deep Learning Course notebooks worth $2,000 are now open source | . PyTorch . Reasons to Choose PyTorch for Deep Learning | fastai and PyTorch Lightning are democratising AI | Pytorch: Step by Step implementation 3D Convolution Neural Network | . Machine Learning . Why we do machine learning engineering with YAML, not notebooks | . Python . 10 Interesting Python Tricks to knock your socks off | The Zen of Python: Write Beautiful Code | Deploy Any Python Project to Kubernetes | Creating a Website to Host your Python Web Application | . Spanish post: https://medium.com/@dloperab/weekly-mendations-023-1cf7d0dba406 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/05/04/weekly-mendations-023.html",
@@ -122,7 +133,7 @@
     
   
     
-        ,"post11": {
+        ,"post12": {
             "title": "Weekly Mendations 022",
             "content": "Weekly-mendations #22 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Tools . Make Sense: Annotate Your Image — Using Online Annotation Tool! | CV-Studio: CV-Studio is a graphical annotation tool to address different Computer Vision tasks | . Machine Learning . 20 Machine Learning Interview Questions You Must Know for Data Scientists | 10 free books to read if you are studying machine learning | Top 5 apps for Data Scientists | . Auto ML . Master Auto ML in Python — An Overview of the MLBox package | . Azure ML . The Best Way to Start With Azure Machine Learning | Azure Machine Learning SDK for Python | . Alexa Skills . Alexa Python Development: Build and Deploy an Alexa Skill | . Courses . AI for Medicine Specialization - deeplearning.ai | . Spanish post: https://medium.com/@dloperab/weekly-mendations-022-c66c6f160ce6 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/04/27/weekly-mendations-022.html",
@@ -133,7 +144,7 @@
     
   
     
-        ,"post12": {
+        ,"post13": {
             "title": "Weekly Mendations 021",
             "content": "Weekly-mendations #21 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . Microsoft France: Surfrider EU - Plastic Origins Project - CodeStories | Empowering digital transformation with .NET, ML and Azure | . Projects . Dataget | TartanAir: A Dataset to Push the Limits of Visual SLAM / Paper | . Machine Learning . Take your Machine Learning Models to Production with these 5 simple steps | An Intuitive Approach to Machine Learning Models (Series) | Introduction to Enterprise Scale Machine Learning in Production in 2020 | Uber AI Introduce Fiber, a New Library for Distributed Machine Learning | . Events . Global AI Community - On virtual tour | . Spanish post: https://medium.com/@dloperab/weekly-mendations-021-be6c65460d52 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/04/20/weekly-mendations-021.html",
@@ -144,7 +155,7 @@
     
   
     
-        ,"post13": {
+        ,"post14": {
             "title": "Weekly Mendations 020",
             "content": "Weekly-mendations #20 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Python . Top 3 Python Functions You Don’t Know About (Probably) | . Jupyter Notebooks . How to use OpenCV imshow() in a Jupyter Notebook — Quick Tip or Use cv2_imshow function from google.colab.patches module | edureka! - Jupyter Notebook Cheat Sheet | cheatography - Jupyter Notebook Keyboard Shortcuts | . PyTorch . Hello PyTorch — Installation &amp; Numpy Comparison | . TensorFlow . An Utterly Simple Guide on Installing Tensorflow-GPU 2.0 on Windows 10 | . AI + COVID-19 . COVID-19 Open Research Dataset (CORD-19) | Kaggle Released CORD-19 — an AI Challenge on the COVID-19 | Jeremy Howard (fast.ai) - A practical summary of the covid-19 situation | . Home Working Tips . 9 recomendaciones para que el trabajo remoto no se vuelva un infierno | ¿Haces teletrabajo? Estos tips laborales te pueden hacer triunfar | . Spanish post: https://link.medium.com/ph9fsLWe74 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/03/24/weekly-mendations-020.html",
@@ -155,7 +166,7 @@
     
   
     
-        ,"post14": {
+        ,"post15": {
             "title": "Weekly Mendations 019",
             "content": "Weekly-mendations #19 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Projects . MediaPipe: A cross-platform framework for building multimodal applied machine learning pipelines | . Courses/Certifications . TensorFlow Developer Certificate | Getting Started with DeepStream for Video Analytics on Jetson Nano | Dot CSV - Recursos de IA (Libros, Cursos, Webs) | . ML/DL Articles . Intro to FastAI: Installation and Building our First Classifier | The Frameworks that Google, DeepMind, Microsoft and Uber Use to Train Deep Learning Models at Scale | Top Google AI Tools for Everyone | The Most Useful ML Tools 2020 | . Computer Vision . Google’s Objectron uses AI to track 3D objects in 2D video | 5 Ways You Can Learn Computer Vision | . Spanish post: https://medium.com/@dloperab/weekly-mendations-019-8fa9f64f8ed?sk=f0515bc0f469d97a0e2253f835955b88 . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/03/16/weekly-mendations-019.html",
@@ -166,7 +177,7 @@
     
   
     
-        ,"post15": {
+        ,"post16": {
             "title": "Weekly Mendations 018",
             "content": "Weekly-mendations #018 . . Hi! . Next, the delivery of the weekly-mendations of the week: . Stories . My First Day As A Computer Vision Engineer. | Three Things I Learned At Amazon That Prepared Me For A Career In Machine Learning. | . Python . 10 Useful ML Practices For Python Developers. | 7 Simple Python Functions to Clean Your Data. | . Time-Series Database . Uber M3 is a Time-Series Database for Massively Scalable Machine Learning Problems. | . AutoML . AutoML for Time Series Forecasting. | Getting Started with AutoKeras. | . ML Courses . Udemy: PyTorch for Deep Learning with Python Bootcamp. | MIT: Introduction to Deep Learning (2020). | Top 20 free Data Science, ML and AI MOOCs on the Internet. | . Spanish post: https://medium.com/@dloperab/weekly-mendations-018-afcc5d5bb3cb . “Thank you, namaste, and good luck” .",
             "url": "https://dloperab.github.io/blog/markdown/2020/02/28/weekly-mendations-018.html",
@@ -177,7 +188,7 @@
     
   
     
-        ,"post16": {
+        ,"post17": {
             "title": "Microsoft Word Example Post",
             "content": "When writing a blog post with Microsoft Word – the filename becomes the title. In this case the file name is “2020-01-01-Microsoft-Word-Example-Post.docx”. . There is minimal support for Word documents in fastpages compared to Jupyter notebooks. Some known limitations: . alt text in Word documents are not yet supported by fastpages, and will break links to images. . | You can only specify front matter for Word documents globally. See the README for more details. . | . For greater control over the content produced from Word documents, you will need to convert Word to markdown files manually. You can follow the steps in this blog post, which walk you through how to use pandoc to do the conversion. Note: If you wish to customize your Word generated blog post in markdown, make sure you delete your Word document from the _word directory so your markdown file doesn’t get overwritten! . If your primary method of writing blog posts is Word documents, and you plan on always manually editing Word generated markdown files, you are probably better off using fast_template instead of fastpages. . The material below is a reproduction of this blog post, and serves as an illustrative example. . Maintaining a healthy open source project can entail a huge amount of toil. Popular projects often have orders of magnitude more users and episodic contributors opening issues and PRs than core maintainers capable of handling these issues. . Consider this graphic prepared by the NumFOCUS foundation showing the number of maintainers for three widely used scientific computing projects: . . We can see that across these three projects, there is a very low ratio maintainers to users. Fixing this problem is not an easy task and likely requires innovative solutions to address the economics as well as tools. . Due to its recent momentum and popularity, Kubeflow suffers from a similar fate as illustrated by the growth of new issues opened: . . Source: “TensorFlow World 2019, Automating Your Developer Workflow With ML” . Coincidentally, while building out end to end machine learning examples for Kubeflow, we built two examples using publicly available GitHub data: GitHub Issue Summarization and Code Search. While these tutorials were useful for demonstrating components of Kubeflow, we realized that we could take this a step further and build concrete data products that reduce toil for maintainers. . This is why we started the project kubeflow/code-intelligence, with the goals of increasing project velocity and health using data driven tools. Below are two projects we are currently experimenting with : . Issue Label Bot: This is a bot that automatically labels GitHub issues using Machine Learning. This bot is a GitHub App that was originally built for Kubeflow but is now also used by several large open source projects. The current version of this bot only applies a very limited set of labels, however we are currently A/B testing new models that allow personalized labels. Here is a blog post discussing this project in more detail. . | Issue Triage GitHub Action: to compliment the Issue Label Bot, we created a GitHub Action that automatically adds / removes Issues to the Kubeflow project board tracking issues needing triage. . | Together these projects allow us to reduce the toil of triaging issues. The GitHub Action makes it much easier for the Kubeflow maintainers to track issues needing triage. With the label bot we have taken the first steps in using ML to replace human intervention. We plan on using features extracted by ML to automate more steps in the triage process to further reduce toil. . Building Solutions with GitHub Actions . One of the premises of Kubeflow is that a barrier to building data driven, ML powered solutions is getting models into production and integrated into a solution. In the case of building models to improve OSS project health, that often means integrating with GitHub where the project is hosted. . We are really excited by GitHub’s newly released feature GitHub Actions because we think it will make integrating ML with GitHub much easier. . For simple scripts, like the issue triage script, GitHub actions make it easy to automate executing the script in response to GitHub events without having to build and host a GitHub app. . To automate adding/removing issues needing triage to a Kanban board we wrote a simple python script that interfaces with GitHub’s GraphQL API to modify issues. . As we continue to iterate on ML Models to further reduce toil, GitHub Actions will make it easy to leverage Kubeflow to put our models into production faster. A number of prebuilt GitHub Actions make it easy to create Kubernetes resources in response to GitHub events. For example, we have created GitHub Actions to launch Argo Workflows. This means once we have a Kubernetes job or workflow to perform inference we can easily integrate the model with GitHub and have the full power of Kubeflow and Kubernetes (eg. GPUs). We expect this will allow us to iterate much faster compared to building and maintaining GitHub Apps. . Call To Action . We have a lot more work to do in order to achieve our goal of reducing the amount of toil involved in maintaining OSS projects. If your interested in helping out here’s a couple of issues to get started: . Help us create reports that pull and visualize key performance indicators (KPI). https://github.com/kubeflow/code-intelligence/issues/71 . We have defined our KPI here: issue #19 | . | Combine repo specific and non-repo specific label predictions: https://github.com/kubeflow/code-intelligence/issues/70 . | . In addition to the aforementioned issues we welcome contributions for these other issues in our repo. .",
             "url": "https://dloperab.github.io/blog/2020/01/01/Microsoft-Word-Example-Post.html",
@@ -194,7 +205,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "David Lopera Betancur . Actualmente trabajo como Arquitecto de I+D en GreenSQA. . Soy Ingeniero de Sistemas de formación, estudiante activo en diversos temas de Ingeniería de Software y actualmente vivo en Cali, Colombia. . Mis intereses van desde la tecnología hasta el emprendimiento y mejora personal. También me interesan los temas acerca de viajes, programación y fútbol. . También publico los artículos de este blog en https://medium.com/@dloperab por si te interesa. . Puedes consultar mi perfil profesional en mi cuenta de LinkedIn. . Este sitio Web está construido con fastpages, una plataforma de blogs fácil de usar con funciones adicionales para Jupyter Notebooks. .",
+          "content": "David Lopera Betancur . Actualmente trabajo como Arquitecto de I+D en GreenSQA. . Soy Ingeniero de Sistemas de formación, estudiante activo en diversos temas de Ingeniería y Desarrollo de Software. . Entusiasta de Machine Learning y Deep Learning con enfoque principalmente en Computer Vision. . Mis intereses van desde la tecnología hasta el emprendimiento. También me interesan los temas acerca de viajes, programación, fútbol y mejora a nivel personal. . También publico los artículos de este blog en https://medium.com/@dloperab por si te interesa seguirlos. . Puedes consultar mi perfil profesional en mi cuenta de LinkedIn. . Este sitio Web está construido con fastpages, una plataforma de blogs fácil de usar con funciones adicionales para Jupyter Notebooks. .",
           "url": "https://dloperab.github.io/blog/about/",
           "relUrl": "/about/",
           "date": ""

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Instalando TensorFlow 2.x GPU en Windows 10 | David Lopera</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Instalando TensorFlow 2.x GPU en Windows 10" />
+<meta name="author" content="David Lopera" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce." />
+<meta property="og:description" content="Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce." />
+<link rel="canonical" href="https://dloperab.github.io/blog/installing-tf-win-gpu/" />
+<meta property="og:url" content="https://dloperab.github.io/blog/installing-tf-win-gpu/" />
+<meta property="og:site_name" content="David Lopera" />
+<meta property="og:image" content="https://dloperab.github.io/blog/images/tf_win10.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-08T00:00:00-06:00" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"David Lopera"},"description":"Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce.","headline":"Instalando TensorFlow 2.x GPU en Windows 10","@type":"BlogPosting","dateModified":"2021-01-08T00:00:00-06:00","datePublished":"2021-01-08T00:00:00-06:00","image":"https://dloperab.github.io/blog/images/tf_win10.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://dloperab.github.io/blog/installing-tf-win-gpu/"},"url":"https://dloperab.github.io/blog/installing-tf-win-gpu/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://dloperab.github.io/blog/feed.xml" title="David Lopera" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Instalando TensorFlow 2.x GPU en Windows 10 | David Lopera</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Instalando TensorFlow 2.x GPU en Windows 10" />
+<meta name="author" content="David Lopera" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce." />
+<meta property="og:description" content="Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce." />
+<link rel="canonical" href="https://dloperab.github.io/blog/installing-tf-win-gpu/" />
+<meta property="og:url" content="https://dloperab.github.io/blog/installing-tf-win-gpu/" />
+<meta property="og:site_name" content="David Lopera" />
+<meta property="og:image" content="https://dloperab.github.io/blog/images/tf_win10.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-08T00:00:00-06:00" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"David Lopera"},"description":"Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce.","headline":"Instalando TensorFlow 2.x GPU en Windows 10","@type":"BlogPosting","dateModified":"2021-01-08T00:00:00-06:00","datePublished":"2021-01-08T00:00:00-06:00","image":"https://dloperab.github.io/blog/images/tf_win10.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://dloperab.github.io/blog/installing-tf-win-gpu/"},"url":"https://dloperab.github.io/blog/installing-tf-win-gpu/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://dloperab.github.io/blog/feed.xml" title="David Lopera" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    // remove paragraph tags in rendered toc (happens from notebooks)
+    var toctags = document.querySelectorAll(".toc-entry")
+    toctags.forEach(e => (e.firstElementChild.innerText = e.firstElementChild.innerText.replace('¶', '')))
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">David Lopera</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Instalando TensorFlow 2.x GPU en Windows 10</h1><p class="page-description">Este artículo muestra cómo instalar y configurar TensorFlow 2.x en Windows 10 con una tarjeta de video NVIDIA GeForce.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-01-08T00:00:00-06:00" itemprop="datePublished">
+        Jan 8, 2021
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">David Lopera</span></span>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#tensorflow">tensorflow</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#windows">windows</a>
+        
+      
+      </p>
+    
+
+    
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#Prerequisitos">Prerequisitos </a></li>
+<li class="toc-entry toc-h2"><a href="#Verificar-compatibilidad-de-tarjeta-de-video">Verificar compatibilidad de tarjeta de video </a></li>
+<li class="toc-entry toc-h2"><a href="#Verificar-los-requerimientos-de-software">Verificar los requerimientos de software </a></li>
+<li class="toc-entry toc-h2"><a href="#Instalar-Visual-Studio">Instalar Visual Studio </a></li>
+<li class="toc-entry toc-h2"><a href="#Actualizar-los-drivers-de-la-tarjeta-de-video">Actualizar los drivers de la tarjeta de video </a></li>
+<li class="toc-entry toc-h2"><a href="#Instalar-CUDA-Toolkit">Instalar CUDA Toolkit </a></li>
+<li class="toc-entry toc-h2"><a href="#Instalar-cuDNN">Instalar cuDNN </a></li>
+<li class="toc-entry toc-h2"><a href="#Crear-el-"conda-environment"">Crear el &quot;conda environment&quot; </a></li>
+<li class="toc-entry toc-h2"><a href="#Instalar-TensorFlow-con-soporte-GPU">Instalar TensorFlow con soporte GPU </a></li>
+<li class="toc-entry toc-h2"><a href="#Referencias">Referencias </a></li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-01-08-installing-tf-win-gpu.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Este artículo muestra cómo instalar y configurar TensorFlow 2 en Windows 10 con una tarjeta de video NVIDIA GeForce.</p>
+<p>Las características del hardware de mi equipo son:</p>
+<ul>
+<li>
+<strong>Sistema operativo:</strong> Windows 10 Pro - Versión 20H2.</li>
+<li>
+<strong>Procesador:</strong> Intel Core i7-8750H CPU @ 2.20GHz 2.21 GHz.</li>
+<li>
+<strong>RAM:</strong> 32 GB.</li>
+<li>
+<strong>Disco duro:</strong> 256 GB SSD.</li>
+<li>
+<strong>Tarjeta video:</strong> NVIDIA GeForce GTX 1060.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Prerequisitos">
+<a class="anchor" href="#Prerequisitos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisitos<a class="anchor-link" href="#Prerequisitos"> </a>
+</h2>
+<ul>
+<li>
+<a href="https://www.anaconda.com/products/individual">Anaconda</a> instalado. Para esta guía se tiene instalada la versión Anaconda 4.9.2 + Python 3.8.5.</li>
+<li>
+<a href="https://visualstudio.microsoft.com/vs/community/">Visual Studio 2019</a> instalado. Requerido para instalación de CUDA Toolkit.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Verificar-compatibilidad-de-tarjeta-de-video">
+<a class="anchor" href="#Verificar-compatibilidad-de-tarjeta-de-video" aria-hidden="true"><span class="octicon octicon-link"></span></a>Verificar compatibilidad de tarjeta de video<a class="anchor-link" href="#Verificar-compatibilidad-de-tarjeta-de-video"> </a>
+</h2>
+<p>Verificar la compatibilidad de la tarjeta de video que se tenga con TensorFlow es de los primeros pasos a realizar. En el caso de esta guía se verificará la compatibilidad para la tarjeta de video <strong>NVIDIA GeForce GTX 1060</strong>.</p>
+<p>a. En el link <a href="https://developer.nvidia.com/cuda-gpus">https://developer.nvidia.com/cuda-gpus</a> se debe buscar la referencia de la tarjeta de video para conocer si es compatible:</p>
+<p><img src="https://i.ibb.co/wWSJF2j/video-card-capability.png" alt=""></p>
+<p>b. La tarjeta de video GTX 1060 cuenta con un "Compute Capability" de 6.1. Lo mínimo requerido es 3.5. Se pueden revisar estos requisitos en el siguiente link <a href="https://www.tensorflow.org/install/gpu#hardware_requirements">https://www.tensorflow.org/install/gpu#hardware_requirements</a>.</p>
+<p><img src="https://i.ibb.co/T1zNgZK/tf-hw-reqs.png" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Verificar-los-requerimientos-de-software">
+<a class="anchor" href="#Verificar-los-requerimientos-de-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>Verificar los requerimientos de software<a class="anchor-link" href="#Verificar-los-requerimientos-de-software"> </a>
+</h2>
+<p>a. En la documentación oficial de TensorFlow se pueden validar los requerimientos de software mínimos requeridos:</p>
+<ul>
+<li><a href="https://www.tensorflow.org/install/gpu#software_requirements">https://www.tensorflow.org/install/gpu#software_requirements</a></li>
+</ul>
+<p><img src="https://i.ibb.co/k0qDhDd/tf-sw-reqs.png" alt=""></p>
+<ul>
+<li>En esta guía se instalarán las siguientes versiones:<ul>
+<li>
+<strong>TensorFlow:</strong> 2.4.0.</li>
+<li>
+<strong>CUDA Toolkit:</strong> 11.0.</li>
+<li>
+<strong>cuDNN:</strong> 8.0.4.</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instalar-Visual-Studio">
+<a class="anchor" href="#Instalar-Visual-Studio" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalar Visual Studio<a class="anchor-link" href="#Instalar-Visual-Studio"> </a>
+</h2>
+<p>a. "CUDA Toolkit 11.0" tiene como requisito tener instalado Visual Studio. Si se revisa la documentación de CUDA en <a href="https://docs.nvidia.com/cuda/archive/11.0/cuda-installation-guide-microsoft-windows/">https://docs.nvidia.com/cuda/archive/11.0/cuda-installation-guide-microsoft-windows/</a>, el Visual Studio requerido es 2019.</p>
+<p><img src="https://i.ibb.co/yVHgwZ3/cuda-toolkit-reqs.png" alt=""></p>
+<p>b. Si se hace caso omiso al paso anterior, al momento de estar instalando CUDA se podría visualizar un mensaje como el siguiente:</p>
+<p><img src="https://i.ibb.co/cCTRD1d/cuda-install-error.png" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Actualizar-los-drivers-de-la-tarjeta-de-video">
+<a class="anchor" href="#Actualizar-los-drivers-de-la-tarjeta-de-video" aria-hidden="true"><span class="octicon octicon-link"></span></a>Actualizar los drivers de la tarjeta de video<a class="anchor-link" href="#Actualizar-los-drivers-de-la-tarjeta-de-video"> </a>
+</h2>
+<p>a. Instalar/Actualizar drivers de la tarjeta de video:</p>
+<p><strong>Opción 1:</strong> Utilizando el programa "NVIDIA GeForce Experience". La versión instalada del driver al momento de crear esta guía es la <strong>v460.89</strong>:</p>
+<p><img src="https://i.ibb.co/NtYwJvm/geforce-experience.png" alt=""></p>
+<p><strong>Opción 2:</strong> Buscar el driver en la página Web de NVIDIA <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us">https://www.nvidia.com/Download/index.aspx?lang=en-us</a>:</p>
+<p><img src="https://i.ibb.co/6BwqMQw/nvidia-drivers-download.png" alt=""></p>
+<p>b. Verificar los drivers instalados con el comando <code>nvidia-smi</code> en la consola:</p>
+<p><img src="https://i.ibb.co/D47Smwc/nvidia-smi.png" alt=""></p>
+<blockquote>
+<p>Nota:En caso de no tener acceso al comando <code>nvidia-smi</code> añadir la ruta "C:\Program Files\NVIDIA Corporation\NVSMI" a la variable de entorno path.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instalar-CUDA-Toolkit">
+<a class="anchor" href="#Instalar-CUDA-Toolkit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalar CUDA Toolkit<a class="anchor-link" href="#Instalar-CUDA-Toolkit"> </a>
+</h2>
+<p>a. Descargar CUDA v11.0 del sitio de NVIDIA <a href="https://developer.nvidia.com/cuda-11.0-download-archive">https://developer.nvidia.com/cuda-11.0-download-archive</a>:</p>
+<p><img src="https://i.ibb.co/tLk45x4/cuda-toolkit-download.png" alt=""></p>
+<p>b. Elegir el instalador base de CUDA e iniciar la instalación:</p>
+<ul>
+<li>Elegir la opción de instalación Custom:</li>
+</ul>
+<p><img src="https://i.ibb.co/Y0QwXzz/cuda-install-1.png" alt=""></p>
+<ul>
+<li>Solo instalar los componentes de CUDA. NO instalar los componentes "NVIDIA GeForce Experience", "Driver Components" y "Other Components" siempre y cuando las versiones instaladas en el sistema sean mayores que las que se sugiere el instalador:</li>
+</ul>
+<p><img src="https://i.ibb.co/zVPVFWH/cuda-install-2.png" alt=""></p>
+<ul>
+<li>Para mayor información de este paso, se puede revisar el siguiente link <a href="https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html">https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html</a> para validar que CUDA 11.0 soporta versiones &gt;= 450 del driver de la tarjeta de video en Windows:</li>
+</ul>
+<p><img src="https://i.ibb.co/zrhN4nw/cuda-drivers-comp.png" alt=""></p>
+<ul>
+<li>Si todo ha salido correctamente con la instalación, se debe visualizar la siguiente ventana:</li>
+</ul>
+<p><img src="https://i.ibb.co/4PqGTs7/cuda-install-3.png" alt=""></p>
+<ul>
+<li>Ir a la ruta donde quedó instalado CUDA (C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0). Esta ruta es importante para pasos posteriores, ya que se debe adicionar a las variables de entorno de Windows.</li>
+</ul>
+<p>c. Para verificar la instalación de CUDA se puede ejecutar el siguiente comando <code>nvcc --version</code>:</p>
+<p><img src="https://i.ibb.co/6DYBJ9X/nvcc-version.png" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instalar-cuDNN">
+<a class="anchor" href="#Instalar-cuDNN" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalar cuDNN<a class="anchor-link" href="#Instalar-cuDNN"> </a>
+</h2>
+<p>a. Con base a los requisitos mencionados anteriormente, la versión a instalar de cuDNN es la <strong>8.0.4</strong>.</p>
+<p>b. Descargar cuDNN desde <a href="https://developer.nvidia.com/rdp/cudnn-archive">https://developer.nvidia.com/rdp/cudnn-archive</a>. Requiere Inicio de sesión o Registro (Gratis) para poder obtener los instaladores.</p>
+<p>c. Se descarga paquete <strong>cuDDN Library for Windows 10</strong> como se visualiza en la siguiente imagen:</p>
+<p><img src="https://i.ibb.co/TBC9Gm1/cudnn-download.png" alt=""></p>
+<p>d. En el paso anterior se descarga un archivo <strong>"cudnn-11.0-windows-x64-v8.0.4.30.zip"</strong> y se procede a descomprimir el archivo.</p>
+<p>e. Siguiendo el "Paso 3" de la documentación oficial de NVIDIA en el link <a href="https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installwindows">https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installwindows</a>, se realiza lo siguiente:</p>
+<ul>
+<li>Se copia el archivo <strong>"\cudnn-11.0-windows-x64-v8.0.4.30\cuda\bin\cudnn64_8.dll"</strong> en la ruta <strong>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin"</strong>.</li>
+<li>Se copia el archivo <strong>"\cudnn-11.0-windows-x64-v8.0.4.30\cuda\include\cudnn.h"</strong> en la ruta <strong>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"</strong>.</li>
+<li>Se copia el archivo <strong>"\cudnn-11.0-windows-x64-v8.0.4.30\cuda\lib\x64\cudnn.lib"</strong> en la ruta <strong>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\lib\x64"</strong>.</li>
+</ul>
+<p>f. Adicionar/Verificar en la variable de entorno PATH las carpetas <strong>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin"</strong> y <strong>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp"</strong>:</p>
+<p><img src="https://i.ibb.co/x8fJ0Wy/cuda-env-vars.png" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id='Crear-el-"conda-environment"'>
+<a class="anchor" href="#Crear-el-" conda-environment aria-hidden="true"><span class="octicon octicon-link"></span></a>Crear el "conda environment"<a class="anchor-link" href="#Crear-el-%22conda-environment%22"> </a>
+</h2>
+<p>a. Para crear el <em>environment</em> donde se va a usar TensorFlow se debe tener en cuenta que las versiones de Python soportadas son 3.6-3.8, tal y como se ve en la siguiente tabla:</p>
+<p><img src="https://i.ibb.co/JBh6Cx1/tf-gpu-python.png" alt=""></p>
+<p>b. Abrir la consola de comandos o Anaconda Prompt para crear un nuevo ambiente indicando la versión de Python 3.8. Para efectos de esta guía se crea un <em>environment</em> llamado <strong>tensorflow</strong>:</p>
+<ul>
+<li><code>conda create --name tensorflow python=3.8</code></li>
+</ul>
+<p><img src="https://i.ibb.co/tXNTqrV/conda-create-env.png" alt=""></p>
+<p>c. Verificar los "environments" creados en Anaconda con el comando <code>conda env list</code>:</p>
+<p><img src="https://i.ibb.co/mR1k00f/conda-env-list.png" alt=""></p>
+<p>d. Activar el <em>environment</em> con el comando <code>conda activate tensorflow</code>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instalar-TensorFlow-con-soporte-GPU">
+<a class="anchor" href="#Instalar-TensorFlow-con-soporte-GPU" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalar TensorFlow con soporte GPU<a class="anchor-link" href="#Instalar-TensorFlow-con-soporte-GPU"> </a>
+</h2>
+<p>a. Escribir el comando <code>pip install tensorflow-gpu==2.4.0</code> en "Anaconda Prompt" dentro del <em>environment</em> creado:</p>
+<p><img src="https://i.ibb.co/1RWhb3f/pip-install-tfgpu.png" alt=""></p>
+<p>b. Al terminar el punto anterior, se procede a probar la instalación de TensorFlow por medio de los siguientes comandos en la consola:</p>
+<div class="highlight"><pre><span></span>% python
+&gt; &gt;&gt; import tensorflow as tf
+&gt;&gt;&gt; tf.test.is_gpu_available<span class="o">()</span>
+</pre></div>
+<p><img src="https://i.ibb.co/nDLdf69/tfgpu-test.png" alt=""></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Referencias">
+<a class="anchor" href="#Referencias" aria-hidden="true"><span class="octicon octicon-link"></span></a>Referencias<a class="anchor-link" href="#Referencias"> </a>
+</h2>
+<ul>
+<li><a href="https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/">How to install TensorFlow 2.0 on Ubuntu</a></li>
+<li><a href="https://www.pugetsystems.com/labs/hpc/Install-TensorFlow-with-GPU-Support-on-Windows-10-without-a-full-CUDA-install-1172/">Install TensorFlow with GPU Support on Windows 10 (without a full CUDA install)</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Espero este artículo haya sido de gran ayuda. 
+Gracias por leerlo!</p>
+<p><strong>“Thank you, namaste, and good luck”</strong></p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="dloperab/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/installing-tf-win-gpu/" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>dloperab blog</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/dloperab" title="dloperab"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/dloperab" title="dloperab"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
