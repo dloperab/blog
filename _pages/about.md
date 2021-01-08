@@ -8,11 +8,13 @@ permalink: /about/
 
 Actualmente trabajo como Arquitecto de I+D en [GreenSQA](https://greensqa.com/). 
 
-Soy Ingeniero de Sistemas de formación, estudiante activo en diversos temas de Ingeniería de Software y actualmente vivo en Cali, Colombia.
+Soy Ingeniero de Sistemas de formación, estudiante activo en diversos temas de Ingeniería y Desarrollo de Software. 
 
-Mis intereses van desde la tecnología hasta el emprendimiento y mejora personal. También me interesan los temas acerca de viajes, programación y fútbol.
+Entusiasta de Machine Learning y Deep Learning con enfoque principalmente en Computer Vision.
 
-También publico los artículos de este blog en [https://medium.com/@dloperab](https://medium.com/@dloperab) por si te interesa. 
+Mis intereses van desde la tecnología hasta el emprendimiento. También me interesan los temas acerca de viajes, programación, fútbol y mejora a nivel personal.
+
+También publico los artículos de este blog en [https://medium.com/@dloperab](https://medium.com/@dloperab) por si te interesa seguirlos. 
 
 Puedes consultar mi perfil profesional en mi cuenta de [LinkedIn](https://www.linkedin.com/in/david-lopera-905390119/).
 
