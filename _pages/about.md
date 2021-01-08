@@ -4,8 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-![]({{ site.baseurl }}/images/DAL_Profile.jpeg)
-
 **David Lopera Betancur**
 
 Actualmente trabajo como Arquitecto de I+D en [GreenSQA](https://greensqa.com/). 
