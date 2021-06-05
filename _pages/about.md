@@ -14,7 +14,7 @@ Entusiasta de Machine Learning y Deep Learning con enfoque principalmente en Com
 
 Mis intereses van desde la tecnología hasta el emprendimiento. También me interesan los temas acerca de viajes, programación, fútbol y mejora a nivel personal.
 
-También publico los artículos de este blog en [https://medium.com/@dloperab](https://medium.com/@dloperab) por si te interesa seguirlos. 
+También publico los artículos de este blog en [https://dloperab.medium.com/](https://dloperab.medium.com/) por si te interesa seguirlos. 
 
 Puedes consultar mi perfil profesional en mi cuenta de [LinkedIn](https://www.linkedin.com/in/david-lopera-905390119/).
 
